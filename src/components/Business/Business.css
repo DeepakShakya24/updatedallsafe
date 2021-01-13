@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+.business-para {
+    font-size: 16px;
+    font-weight: 10px;
+    margin-bottom: 2em;
+    line-height: 30px;
+}
+
+.business {
+    padding: 30px 40px 50px 50px;
+}
+
+.business a {
+    text-decoration: none;
+}
+
+.business-header {
+    font-weight: lighter;
+}
+
+.business-button {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid #316698;
+    color: white;
+    background-color: #316698;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.business-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.business-button i {
+    color: white;
+}
+
+.business-button:hover i {
+    color: black;
+}
+
+.business-choose {
+    padding: 30px 40px 50px 50px;
+}
+
+.business-choose h2 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: -1px -1px 0 #2463A1, 1px -1px 0 #2463A1, -1px 1px 0 #2463A1, 1px 1px 0 #2463A1;
+}
+
+.business-choose h2 .ship {
+    color: #316698;
+}
+
+
+/*
+.partnership h2 {
+    letter-spacing: 6px;
+    font-size: 50px;
+    text-shadow: 0 2px 8px rgba(38, 171, 226, .9);
+    font-weight: 800;
+    padding-bottom: 30px;
+    font-family: "Arial Black";
+    text-align: center;
+} */
+
+.business-choose h3 {
+    font-size: 30px;
+}
+
+.business-choose li {
+    list-style: none;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: 20px;
+}
+
+.partnership {
+    padding: 30px 40px 50px 50px;
+}
+
+.partnership h2 {
+    /* color: #316698;
+    letter-spacing: 3px;
+    font-size: 40px; */
+    font-size: 100px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: -1px -1px 0 #2463A1, 1px -1px 0 #2463A1, -1px 1px 0 #2463A1, 1px 1px 0 #2463A1;
+    /* text-shadow: 2px 2px 8px rgba(1, 37, 53, 0.9);*/
+}
+
+.partnership h2 .ship {
+    color: #316698;
+}
+
+.partnership li {
+    list-style: none;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.partnership i {
+    color: lightgray
+}
+
+.partnership a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+.partnership-btn {
+    padding: 15px 30px;
+    border-radius: 40px;
+    border: 2px solid #316698;
+    color: white;
+    background-color: #316698;
+    text-align: center;
+}
+
+.partnership-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.bsniss-grow-para {
+    letter-spacing: 5px;
+    font-weight: 30px;
+    font-size: 33px;
+    line-height: 60px;
+}
+
+.description {
+    font-size: 25px;
+    font-weight: 20px;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.chooseUs {
+    margin-top: 20px;
+}
+
+.chooseUs p {
+    color: #9DAAB0;
+    padding-top: 15px;
+}
+
+.chooseUs i {
+    color: black;
+}
+
+.chooseUs h3 {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: .8px;
+    line-height: 27px;
+}
+
+.chooseUs .col-md-4 {
+    max-width: 31%;
+}
+
+.choose1 {
+    border: 1px solid #b7b7b7cc;
+    transition: .3s all ease;
+    padding: 40px 40px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.choose1:hover {
+    border: 1px solid #2463A1;
+    box-shadow: 0 0 20px #346A9F;
+    transition: .3s all ease
+}
+
+.choose1:hover h3 {
+    color: #2463A1;
+}
+
+.choose1:hover i {
+    color: #2463A1;
+}

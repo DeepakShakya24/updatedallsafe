@@ -1,0 +1,98 @@
+.right {
+    background-color: #302C3F;
+    padding: 30px 60px;
+}
+
+.contactheading {
+    margin-top: 5em;
+}
+
+.address1 {
+    margin-top: 5em;
+    line-height: 5px;
+}
+
+.address1 p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.address1 h5 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.address1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.address1 i {
+    color: white;
+}
+
+
+/* 
+.address1 a:hover {
+    color: #2463A1;
+} */
+
+.left {
+    margin-top: 10em;
+}
+
+.left h2 {
+    font-size: 67px;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: -1px -1px 0 #2463A1, 1px -1px 0 #2463A1, -1px 1px 0 #2463A1, 1px 1px 0 #2463A1;
+}
+
+.left .ship {
+    color: #2463A1;
+}
+
+.social-handles {
+    margin-top: 3em;
+    /* padding-left: 300px; */
+}
+
+.social-handles i {
+    color: white
+}
+
+.social-handles a:hover i {
+    color: #2463A1
+}
+
+.indication {
+    text-align: center;
+    color: red
+}
+
+.fields {
+    margin-top: 50px;
+}
+
+.fields input {
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 500px;
+    outline: 0;
+}
+
+.submit-btn .c_btn_right {
+    margin-top: 3em;
+    width: 20%;
+}
+
+.submit-btn i {
+    color: white
+}
+
+.submit-btn:hover i {
+    color: #2463A1
+}

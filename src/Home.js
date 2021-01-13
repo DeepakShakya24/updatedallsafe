@@ -1,0 +1,42 @@
+import "./App.css";
+import React from "react";
+import BlockMenu from "./components/BlockMenu/BlockMenu";
+import Footer from "./components/Footer/Footer";
+import HeadMenu from "./components/HeadMenu/HeadMenu";
+import GridSoftwareVisibility from "./components/GridSoftwareVisibility/GridSoftwareVisibility";
+import FullScreenSlider from "./components/FullScreenSliderx3/FullScreenSlider";
+import OurVision from "./components/OurVision/OurVision";
+import AwesomeBuilds from "./components/AwesomeBuilds/AwesomeBuilds";
+import Blogs from "./components/Blogs/Blogs";
+import SafetyBanner from "./components/SafetyBanner/SafetyBanner";
+import WorkProcess from "./components/WorkProcess/WorkProcess";
+import OurOfferings from "./components/OurOfferings/OurOfferings";
+import Fade from "react-reveal/Fade";
+
+function Home() {
+  return (
+    <div className="App">
+      <BlockMenu />
+      <HeadMenu />
+      <GridSoftwareVisibility />
+      <FullScreenSlider />
+      <Fade top>
+        <OurVision />
+      </Fade>
+      <Fade top>
+        <OurOfferings />
+      </Fade>
+
+      <WorkProcess />
+      <AwesomeBuilds />
+      <Blogs />
+      {/* <ContactUs /> */}
+      <SafetyBanner />
+      {/* <OurCollab /> */}
+      {/* <Banner /> */}
+      <Footer />
+    </div>
+  );
+}
+
+export default Home;

@@ -1,0 +1,413 @@
+.navbar {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 90
+}
+
+.navbar,
+.navbar.border-bottom {
+    border-bottom: 1px solid #ddd
+}
+
+.navbar .container-fluid {
+    padding: 0 100px
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.navbar ul.navbar-nav {
+    margin: 0;
+    height: 49px
+}
+
+.navbar ul.navbar-nav li.navbar-item {
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 12px;
+    background: 0 0;
+    border-left: 1px solid #dadada
+}
+
+.navbar ul.navbar-nav li.navbar-item .navbar-link {
+    color: #333;
+    padding: 0 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+.navbar ul.navbar-nav li.navbar-item .navbar-link:hover {
+    color: #333
+}
+
+.navbar ul.navbar-nav li.navbar-item.offers-link {
+    width: 135px
+}
+
+.navbar ul.navbar-nav li.navbar-item.hovered {
+    background-color: #eee
+}
+
+.navbar ul.navbar-nav li.navbar-item.hovered .navbar-dropdown {
+    opacity: 1;
+    display: block;
+    transition: opacity .3s ease-in-out
+}
+
+.navbar ul.navbar-nav li.navbar-item.bg-grey {
+    background-color: #eee
+}
+
+.navbar .sitewide-notification-container {
+    padding: 0 100px;
+    height: 30px;
+    border-bottom: 1px solid #eee;
+    background: #fcfcfe;
+    animation-name: slide-down;
+    animation-duration: 1.5s
+}
+
+.navbar .sitewide-notification-container.blue-bg {
+    background: #346aa0
+}
+
+.navbar .sitewide-notification-container .offer-strip-text {
+    color: #444;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .3s
+}
+
+.navbar .sitewide-notification-container .offer-strip-text:hover {
+    color: #f8c124
+}
+
+.navbar .sitewide-notification-container .offer-star-icon {
+    width: 15px;
+    height: 15px
+}
+
+.navbar .sitewide-notification-container .offer-explore {
+    box-shadow: 0 2px 4px 0 hsla(0, 0%, 56.1%, .5)
+}
+
+.navbar .lenco-menu--sticky {
+    height: 40px;
+    background-color: #fcfcfc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .15);
+    border-top: .1px solid #ddd;
+    z-index: -1
+}
+
+.navbar .lenco-menu__links--right {
+    border-right: .5px solid #eee
+}
+
+.navbar-dropdown {
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    top: 49px;
+    left: 0;
+    opacity: 0;
+    display: none;
+    height: 0;
+    z-index: 1
+}
+
+.navbar-dropdown ul.menu-link {
+    cursor: pointer;
+    background: #fff;
+    color: #346aa0;
+    width: 166px;
+    position: absolute;
+    right: 72px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+    overflow: hidden;
+    padding: 8px 0
+}
+
+.navbar-dropdown ul.menu-link.my-account {
+    left: 0;
+    border-radius: 0;
+    width: 210px
+}
+
+.navbar-dropdown ul.menu-link.my-account li.menu-link-item {
+    padding: 11px 15px;
+    position: relative;
+    background-color: #fff;
+    color: #346aa0;
+    border-bottom: .5px solid rgba(52, 106, 160, .12);
+    height: 42px
+}
+
+.navbar-dropdown ul.menu-link.my-account li.menu-link-item:hover {
+    background: #ecf6ff
+}
+
+.navbar-dropdown ul.menu-link.my-account a:hover {
+    text-decoration: none
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item {
+    padding: 11px 40px;
+    position: relative
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item img.selected {
+    position: absolute;
+    left: 16px;
+    width: 14px;
+    height: 14px
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item:hover {
+    background: #f5f5f5
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item:hover svg {
+    transition: .2s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item svg {
+    position: absolute;
+    transition: .2s;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item .city {
+    text-transform: capitalize
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item:last-child {
+    border-bottom: none
+}
+
+.navbar-dropdown.drag-down {
+    top: 78px
+}
+
+.navbar {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 90
+}
+
+.navbar,
+.navbar.border-bottom {
+    border-bottom: 1px solid #ddd
+}
+
+.navbar .container-fluid {
+    padding: 0 100px
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.navbar ul.navbar-nav {
+    margin: 0;
+    height: 49px
+}
+
+.navbar ul.navbar-nav li.navbar-item {
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 12px;
+    background: 0 0;
+    border-left: 1px solid #dadada
+}
+
+.navbar ul.navbar-nav li.navbar-item .navbar-link {
+    color: #333;
+    padding: 0 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+.navbar ul.navbar-nav li.navbar-item .navbar-link:hover {
+    color: #333
+}
+
+.navbar ul.navbar-nav li.navbar-item.offers-link {
+    width: 135px
+}
+
+.navbar ul.navbar-nav li.navbar-item.hovered {
+    background-color: #eee
+}
+
+.navbar ul.navbar-nav li.navbar-item.hovered .navbar-dropdown {
+    opacity: 1;
+    display: block;
+    transition: opacity .3s ease-in-out
+}
+
+.navbar ul.navbar-nav li.navbar-item.bg-grey {
+    background-color: #eee
+}
+
+.navbar .sitewide-notification-container {
+    padding: 0 100px;
+    height: 30px;
+    border-bottom: 1px solid #eee;
+    background: #fcfcfe;
+    animation-name: slide-down;
+    animation-duration: 1.5s
+}
+
+.navbar .sitewide-notification-container.blue-bg {
+    background: #346aa0
+}
+
+.navbar .sitewide-notification-container .offer-strip-text {
+    color: #444;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .3s
+}
+
+.navbar .sitewide-notification-container .offer-strip-text:hover {
+    color: #f8c124
+}
+
+.navbar .sitewide-notification-container .offer-star-icon {
+    width: 15px;
+    height: 15px
+}
+
+.navbar .sitewide-notification-container .offer-explore {
+    box-shadow: 0 2px 4px 0 hsla(0, 0%, 56.1%, .5)
+}
+
+.navbar .lenco-menu--sticky {
+    height: 40px;
+    background-color: #fcfcfc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .15);
+    border-top: .1px solid #ddd;
+    z-index: -1
+}
+
+.navbar .lenco-menu__links--right {
+    border-right: .5px solid #eee
+}
+
+.navbar-dropdown {
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    top: 49px;
+    left: 0;
+    opacity: 0;
+    display: none;
+    height: 0;
+    z-index: 1
+}
+
+.navbar-dropdown ul.menu-link {
+    cursor: pointer;
+    background: #fff;
+    color: #346aa0;
+    width: 166px;
+    position: absolute;
+    right: 72px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+    overflow: hidden;
+    padding: 8px 0
+}
+
+.navbar-dropdown ul.menu-link.my-account {
+    left: 0;
+    border-radius: 0;
+    width: 210px
+}
+
+.navbar-dropdown ul.menu-link.my-account li.menu-link-item {
+    padding: 11px 15px;
+    position: relative;
+    background-color: #fff;
+    color: #346aa0;
+    border-bottom: .5px solid rgba(52, 106, 160, .12);
+    height: 42px
+}
+
+.navbar-dropdown ul.menu-link.my-account li.menu-link-item:hover {
+    background: #ecf6ff
+}
+
+.navbar-dropdown ul.menu-link.my-account a:hover {
+    text-decoration: none
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item {
+    padding: 11px 40px;
+    position: relative
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item img.selected {
+    position: absolute;
+    left: 16px;
+    width: 14px;
+    height: 14px
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item:hover {
+    background: #f5f5f5
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item:hover svg {
+    transition: .2s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item svg {
+    position: absolute;
+    transition: .2s;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item .city {
+    text-transform: capitalize
+}
+
+.navbar-dropdown ul.menu-link li.menu-link-item:last-child {
+    border-bottom: none
+}
+
+.navbar-dropdown.drag-down {
+    top: 78px
+}
