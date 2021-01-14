@@ -35,8 +35,7 @@ const GridSoftwareVisibility = () => {
                     {/* <div className="head_design"></div>
                     {/* <div className="pro_heading">
                       {/* <h3>Business Solution</h3> */}
-                    
-                   </div> 
+                  </div>
 
                   <div className="pro-items">
                     <div className="row m-0">
@@ -119,7 +118,10 @@ const GridSoftwareVisibility = () => {
                         </div>
                       </div>
                     </div>
-                    <Link to="/business" className="btn btn-v_pro w-100 bg-secondary">
+                    <Link
+                      to="/business"
+                      className="btn btn-v_pro w-100 bg-secondary"
+                    >
                       View All
                     </Link>
                   </div>
@@ -129,11 +131,11 @@ const GridSoftwareVisibility = () => {
                 <div className="product_wala">
                   <div className="pro_box">
                     <img src={p2} className="img-fluid" alt="" />
-                     {/* <div className="head_design"></div>
+                    {/* <div className="head_design"></div>
                     <div className="pro_heading">
                       <h3>E-Commerce</h3>
                     </div> */}
-                  </div> 
+                  </div>
                   <div className="pro-items">
                     <div className="row m-0">
                       <div className="col-4">
@@ -351,7 +353,7 @@ const GridSoftwareVisibility = () => {
               </div>
             </div>
 
-            <div className="row" style={{ marginTop: "4em" }}>
+            <div className="row" style={{ marginTop: "2em" }}>
               <div className="col-md-3">
                 <div className="product_wala">
                   <div className="pro_box">
@@ -663,7 +665,7 @@ const GridSoftwareVisibility = () => {
               </div>
             </div>
 
-            <div className="row" style={{ marginTop: "-9.5em" }}>
+            <div className="row" style={{ marginTop: "-11.5em" }}>
               <div className="col-md-3">
                 <div className="product_wala">
                   <div className="pro_box">

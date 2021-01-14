@@ -164,7 +164,7 @@
 }
 
 .blue {
-    background: #3652D9;
+    background: #04325e;
 }
 
 .rose {
@@ -180,9 +180,10 @@
 } */
 
 .circle {
-    float: right;
-    width: 35px;
-    height: 80px;
+    margin-left: auto;
+    margin: 0 17em -1em;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     box-shadow: 0px 0px 1px 1px #0000001a;
 }

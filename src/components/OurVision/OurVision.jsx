@@ -24,8 +24,8 @@ export default function OurVision() {
     <section className="myvision">
       <div class="heading">
         <h2>
-          <div class="circle pulse blue"></div> WHY{" "}
-          <span className="ship">theAllsafe ?</span>
+          <div class="circle pulse blue"></div>
+          WHY <span className="ship">theAllsafe ?</span>
         </h2>
       </div>
       <div class="about-home">
