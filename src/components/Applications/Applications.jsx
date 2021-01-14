@@ -10,8 +10,9 @@ function Applications() {
   return (
     <div>
       <BlockMenu />
-      <section className="application">
-        <div className="first-section">
+      {/* <section className="application"> */}
+      <div className="first-section">
+        <div className="first-section-content">
           <div className="row">
             <div className="col-md-6">
               <div className="mobile-screen">
@@ -33,9 +34,11 @@ function Applications() {
             </div>
           </div>
         </div>
+      </div>
 
-        <section className="platform-main">
-          {/* <div className="circle-blue1"></div> */}
+      <section className="platform-main">
+        {/* <div className="circle-blue1"></div> */}
+        <div className="platform-content">
           <div className="row">
             <div className="col-md-6 mt-5">
               <div className="platform-data">
@@ -60,8 +63,10 @@ function Applications() {
               </div>
             </div>
           </div>
-        </section>
-        <section className="slider">
+        </div>
+      </section>
+      <section className="slider">
+        <div className="slider-con">
           <div className="row">
             <div className="col-md-6"></div>
             <div className="col-md-6">
@@ -77,26 +82,27 @@ function Applications() {
               </div>
             </div>
           </div>
-        </section>
-        <section className="structure">
-          <div className="row">
-            <div className="structurebox">
-              <span className="big-text">Structure</span>
-              <h1>Structure</h1>
-              <p>
-                During the development process, various meetings and reviews
-                were undertaken. This was to minimise the development turnaround
-                time of each functionality. This includes both the frontend and
-                the backend code throughout the application. We also diligently
-                followed security procedures, which has helped to keep user
-                accounts and data transmission between the server and frontend
-                secure.
-              </p>
-              <img src={group} alt="" className="img-fluid" />
-            </div>
-          </div>
-        </section>
+        </div>
       </section>
+      <section className="structure">
+        <div className="row">
+          <div className="structurebox">
+            <span className="big-text">Structure</span>
+            <h1>Structure</h1>
+            <p>
+              During the development process, various meetings and reviews were
+              undertaken. This was to minimise the development turnaround time
+              of each functionality. This includes both the frontend and the
+              backend code throughout the application. We also diligently
+              followed security procedures, which has helped to keep user
+              accounts and data transmission between the server and frontend
+              secure.
+            </p>
+            <img src={group} alt="" className="img-fluid" />
+          </div>
+        </div>
+      </section>
+
       <section className="features">
         <div className="feature-box-left">
           <span>FEATURES</span>

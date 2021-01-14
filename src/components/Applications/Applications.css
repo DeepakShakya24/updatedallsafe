@@ -16,6 +16,10 @@
     padding: 0px
 }
 
+.first-section-content {
+    padding: 40px 90px 50px 50px;
+}
+
 .first-section::before {
     content: "";
     display: block;
@@ -41,6 +45,10 @@
 .platform-data h2 {
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.platform-content {
+    padding: 0px 90px 0px 50px;
 }
 
 .platform-icon-box {
@@ -136,6 +144,12 @@
 
 .slider {
     margin-top: 6em;
+    position: relative;
+    padding: 100px 0;
+}
+
+.slider-con {
+    padding: 0px 90px 0px 50px;
 }
 
 .slider-content {
@@ -149,7 +163,7 @@
     border-right: 100vw solid transparent;
     width: 0;
     position: absolute;
-    top: 143%;
+    top: 0;
     z-index: -1;
     bottom: 0;
 }
@@ -320,7 +334,8 @@
     transition: .3s all ease;
 }
 
-.why-thumb::after:hover {
+
+/* .why-thumb::after:hover {
     position: absolute;
     content: "";
     border: 2px solid #0086EE;
@@ -328,7 +343,7 @@
     left: -13px;
     top: 4px;
     transition: .3s all ease;
-}
+} */
 
 .layer-screen {
     padding: 100px 0;
