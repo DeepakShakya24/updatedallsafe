@@ -93,9 +93,9 @@ const BlockMenu = () => {
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link ml-2" href="#!">
+                  <Link className="nav-link ml-2" to="/applications">
                     <b style={{ color: "#2463A1" }}>Applications</b>
-                  </a>
+                  </Link>
                 </li>
 
                 <li style={{ color: "#FFBC00" }} className="mt-2">
