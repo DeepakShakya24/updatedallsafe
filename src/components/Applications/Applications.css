@@ -16,6 +16,24 @@
     padding: 0px
 }
 
+.first-section::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #0086EE;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    left: -40px;
+    opacity: .3;
+}
+
+.mobile-screen img {
+    width: 68%;
+    position: relative;
+    left: -80px;
+}
+
 .application {
     padding: 30px 90px 50px 50px;
 }
@@ -30,6 +48,17 @@
     justify-content: space-evenly;
 }
 
+.platform-main:after {
+    content: ' ';
+    border-bottom: 50vh solid #0086EE;
+    border-left: 100vw solid transparent;
+    width: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    bottom: 0;
+}
+
 .platform-icon-box .icon-box {
     width: 30%;
     display: flex;
@@ -38,8 +67,9 @@
     align-items: center;
     box-shadow: 0 0 40px rgba(0, 0, 0, .2);
     border-radius: 25px;
-    border: 2px solid blue;
+    border: 2px solid #0086EE;
     transition: .3s all ease;
+    z-index: 100;
 }
 
 .platform-icon-box .icon-box span {
@@ -51,7 +81,7 @@
 }
 
 .icon-box:hover {
-    background-color: blue;
+    background-color: #0086EE;
 }
 
 .icon-box:hover i {
@@ -62,12 +92,36 @@
     color: white
 }
 
+.android {
+    background-color: #0086EE;
+}
+
+.android i {
+    color: white;
+}
+
+.android span {
+    color: white
+}
+
+.android:hover {
+    background: white;
+}
+
+.android:hover i {
+    color: #0086EE
+}
+
+.android:hover span {
+    color: #0086EE
+}
+
 .platform-main {
     padding: 100px 0;
     position: relative;
 }
 
-.circle-blue1 {
+.circle-#0086EE1 {
     position: absolute;
     left: 0;
     /* top: 100px; */
@@ -76,17 +130,28 @@
     width: 75px;
     border-bottom-left-radius: 90px;
     border-top-left-radius: 90px;
-    background: blue;
+    background: #0086EE;
     box-shadow: 0 0 54px rgba(0, 134, 238, .8);
 }
 
 .slider {
-    margin-top: 3em;
+    margin-top: 6em;
 }
 
 .slider-content {
     text-align: right;
     padding: 70px 0 0;
+}
+
+.slider:after {
+    content: ' ';
+    border-top: 50vh solid #0086EE;
+    border-right: 100vw solid transparent;
+    width: 0;
+    position: absolute;
+    top: 143%;
+    z-index: -1;
+    bottom: 0;
 }
 
 
@@ -119,11 +184,11 @@
 }
 
 .structure {
-    margin-top: 4em;
+    margin-top: 420px;
 }
 
 .structurebox h1 {
-    color: blue;
+    color: #0086EE;
     font-size: 72px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -143,7 +208,7 @@
     width: 85%;
     height: 100%;
     margin: 0 auto;
-    border: 10px solid blue;
+    border: 10px solid #0086EE;
     content: "";
     position: absolute;
     left: 0;
@@ -154,7 +219,7 @@
 }
 
 .features {
-    background: blue;
+    background: #0086EE;
     display: flex;
     position: relative;
     margin: 80px 0 0;
@@ -171,13 +236,13 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     z-index: 0;
-    top: 22px;
+    top: 60px;
     color: #1998fb;
     text-shadow: 0 0 27px rgba(0, 0, 0, .2);
 }
 
 .feature-box-left img {
-    width: 100%;
+    width: 80%;
     margin-top: 50px;
     position: relative;
 }
@@ -207,7 +272,7 @@
     font-weight: 600;
     color: white;
     opacity: .5;
-    top: 0;
+    top: 30px;
     left: 10px;
 }
 
@@ -224,7 +289,7 @@
 
 .why-use-main span {
     font-size: 22px;
-    color: blue;
+    color: #0086EE;
     display: block;
     text-transform: uppercase;
 }
@@ -248,7 +313,7 @@
 .why-thumb::after {
     position: absolute;
     content: "";
-    border: 2px solid blue;
+    border: 2px solid #0086EE;
     height: 58px;
     left: -13px;
     top: 4px;
@@ -258,7 +323,7 @@
 .why-thumb::after:hover {
     position: absolute;
     content: "";
-    border: 2px solid blue;
+    border: 2px solid #0086EE;
     height: 70px;
     left: -13px;
     top: 4px;

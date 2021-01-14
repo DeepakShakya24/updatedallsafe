@@ -14,7 +14,9 @@ function Applications() {
         <div className="first-section">
           <div className="row">
             <div className="col-md-6">
-              <img src={phone} alt="" className="img-fluid" />
+              <div className="mobile-screen">
+                <img src={phone} alt="" />
+              </div>
             </div>
             <div className="col-md-6">
               <div className="content">
@@ -51,7 +53,7 @@ function Applications() {
                   <i className="fa fa-apple fa-5x"></i>
                   <span>Ios</span>
                 </div>
-                <div className="icon-box">
+                <div className="icon-box android">
                   <i className="fa fa-android fa-5x"></i>
                   <span>Android</span>
                 </div>
