@@ -7,6 +7,15 @@
     font-size: 42px;
 }
 
+.first-section {
+    background: url(./icons/bg-cut.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 100%;
+    /* padding-top: 175px; */
+    padding: 0px
+}
+
 .application {
     padding: 30px 90px 50px 50px;
 }
@@ -205,4 +214,57 @@
 .feature-content-box h3 {
     color: white;
     font-weight: 600;
+}
+
+.why-use-main {
+    overflow-x: hidden;
+    padding: 30px 90px 50px 50px;
+    margin-top: 4em;
+}
+
+.why-use-main span {
+    font-size: 22px;
+    color: blue;
+    display: block;
+    text-transform: uppercase;
+}
+
+.why-use-main h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.why-thumb {
+    margin: 20px 0;
+    position: relative;
+    transition: .3s all ease;
+}
+
+.why-thumb h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.why-thumb::after {
+    position: absolute;
+    content: "";
+    border: 2px solid blue;
+    height: 58px;
+    left: -13px;
+    top: 4px;
+    transition: .3s all ease;
+}
+
+.why-thumb::after:hover {
+    position: absolute;
+    content: "";
+    border: 2px solid blue;
+    height: 70px;
+    left: -13px;
+    top: 4px;
+    transition: .3s all ease;
+}
+
+.layer-screen {
+    padding: 100px 0;
 }

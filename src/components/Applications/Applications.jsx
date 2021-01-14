@@ -5,29 +5,33 @@ import Footer from "../Footer/Footer";
 import phone from "./icons/application/cut-top-img.png";
 import group from "./icons/Group3644.png";
 import group1 from "./icons/Group3680.png";
+import group3 from "./icons/Group3681.png";
 function Applications() {
   return (
     <div>
       <BlockMenu />
       <section className="application">
-        <div className="row">
-          <div className="col-md-6">
-            <img src={phone} alt="" className="img-fluid" />
-          </div>
-          <div className="col-md-6">
-            <div className="content">
-              <h1>CUT</h1>
-              <h4>Category -E Wallet</h4>
-              <p>
-                The CUT wallet application allows the users totransfer funds at
-                any place in China and Myanmar. The app supports RMB and MMK
-                currencies and it offers quick and instant fund transfer
-                service. Payments can be transferred to the receiver’swallet
-                through QR Code, phone number, and account ID.
-              </p>
+        <div className="first-section">
+          <div className="row">
+            <div className="col-md-6">
+              <img src={phone} alt="" className="img-fluid" />
+            </div>
+            <div className="col-md-6">
+              <div className="content">
+                <h1>CUT</h1>
+                <h4>Category -E Wallet</h4>
+                <p>
+                  The CUT wallet application allows the users totransfer funds
+                  at any place in China and Myanmar. The app supports RMB and
+                  MMK currencies and it offers quick and instant fund transfer
+                  service. Payments can be transferred to the receiver’swallet
+                  through QR Code, phone number, and account ID.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+
         <section className="platform-main">
           {/* <div className="circle-blue1"></div> */}
           <div className="row">
@@ -151,6 +155,89 @@ function Applications() {
               is mostly used to make payments with the contacts that are not
               saved on the phone.
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="why-use-main">
+        <div className="row">
+          <div className="col-md-8">
+            <div className="section-why-use">
+              <h1>
+                <span>CUT</span>
+                Why?
+              </h1>
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="why-thumb">
+                    <h3>Time-Saving</h3>
+                    <p>
+                      With CUT, you can easily make payments at shops or with
+                      relatives just by holding the device over the payment
+                      terminal to verify the purchase. This saves time by
+                      transferring funds within just a few seconds.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="why-thumb">
+                    <h3>Time-Saving</h3>
+                    <p>
+                      With CUT, you can easily make payments at shops or with
+                      relatives just by holding the device over the payment
+                      terminal to verify the purchase. This saves time by
+                      transferring funds within just a few seconds.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="why-thumb">
+                    <h3>Time-Saving</h3>
+                    <p>
+                      With CUT, you can easily make payments at shops or with
+                      relatives just by holding the device over the payment
+                      terminal to verify the purchase. This saves time by
+                      transferring funds within just a few seconds.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="why-thumb">
+                    <h3>Time-Saving</h3>
+                    <p>
+                      With CUT, you can easily make payments at shops or with
+                      relatives just by holding the device over the payment
+                      terminal to verify the purchase. This saves time by
+                      transferring funds within just a few seconds.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="why-thumb">
+                    <h3>Time-Saving</h3>
+                    <p>
+                      With CUT, you can easily make payments at shops or with
+                      relatives just by holding the device over the payment
+                      terminal to verify the purchase. This saves time by
+                      transferring funds within just a few seconds.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="why-thumb">
+                    <h3>Time-Saving</h3>
+                    <p>
+                      With CUT, you can easily make payments at shops or with
+                      relatives just by holding the device over the payment
+                      terminal to verify the purchase. This saves time by
+                      transferring funds within just a few seconds.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 layer-screen">
+            <img src={group3} alt="" />
           </div>
         </div>
       </section>
