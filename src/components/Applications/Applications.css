@@ -310,7 +310,7 @@
     font-weight: 600;
 }
 
-.why-thumb::after {
+.why-thumb:after {
     position: absolute;
     content: "";
     border: 2px solid #0086EE;
