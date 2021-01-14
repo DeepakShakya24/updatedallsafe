@@ -24,7 +24,7 @@ export default function OurVision() {
     <section className="myvision">
       <div class="heading">
         <h2>
-          <div class="circle pulse blue"></div>
+          <div class="circle pulse"></div>
           WHY <span className="ship">theAllsafe ?</span>
         </h2>
       </div>

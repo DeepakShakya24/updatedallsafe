@@ -13,6 +13,7 @@ function OurOfferings() {
       <div class="container">
         <div class="container heading">
           <h2>
+            <div class="circle pulse"></div>
             OUR <span className="ship">OFFERINGS</span>
           </h2>
         </div>
