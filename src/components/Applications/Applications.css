@@ -252,8 +252,13 @@
     letter-spacing: 3px;
     z-index: 0;
     top: 60px;
+    left: 150px;
     color: #1998fb;
     text-shadow: 0 0 27px rgba(0, 0, 0, .2);
+}
+
+.feature-box-left span {
+    text-align: center;
 }
 
 .feature-box-left img {
@@ -266,6 +271,10 @@
     width: 60%;
     height: 766px;
     overflow-y: auto;
+}
+
+.feature-content-box p {
+    color: white;
 }
 
 .feature-content-box:nth-child(odd) {
