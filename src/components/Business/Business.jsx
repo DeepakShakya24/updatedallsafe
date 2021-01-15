@@ -1,18 +1,20 @@
 import React from "react";
 import "./Business.css";
-import BlockMenu from "../BlockMenu/BlockMenu";
+
 import SafetyBanner from "../SafetyBanner/SafetyBanner";
 import Footer from "../Footer/Footer";
 import banner from "./res/1.png";
 // import banner2 from "./res/banner2.png";
-import banner3 from "./res/banner3.png";
+//import banner3 from "./res/banner3.png";
 import Fade from "react-reveal/Fade";
 import FullScreenSlider from "../FullScreenSliderx3/FullScreenSlider";
+import NavBar from "../NavBar/NavBar";
 
 function Business() {
   return (
     <>
-      <BlockMenu />
+      <NavBar />
+
       <section className="business">
         <div className="row">
           <div className="col-md-6 mt-4">
@@ -164,13 +166,13 @@ function Business() {
               </h2>
             </Fade>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-12" align="center">
             <h1>Being a partner you can grow your own business</h1>
             <p>
               theAllSafe offers to resell the best quality digital products with
               lifetime earning opportunities for its partners.
             </p>
-            <ul>
+            {/* <ul>
               <li>
                 Start business with zero Programming knowledge
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -186,11 +188,53 @@ function Business() {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <i className="fa fa-check"></i>
               </li>
-            </ul>
+            </ul> */}
           </div>
-          <div className="col-md-4 mt-3">
+
+          <div className="container-fluid">
+            <div className="row mt-5">
+              <div className="col-md-4 partnership1">
+                <div className="first-partnership">
+                  <div className="partnership-content">
+                    <i className="fa fa-home fa-5x"></i>
+                    <h4>Research</h4>
+                    <p>Start business with zero Programming knowledge</p>
+                  </div>
+                  <a href="#!" className="step-btn">
+                    Step1
+                  </a>
+                </div>
+              </div>
+              <div className="col-md-4 partnership1">
+                <div className="first-partnership">
+                  <div className="partnership-content">
+                    <i className="fa fa-money fa-5x"></i>
+                    <h4>Research</h4>
+                    <p>Earn money being a partner with theAllSafe</p>
+                  </div>
+                  <a href="#!" className="step-btn">
+                    Step1
+                  </a>
+                </div>
+              </div>
+              <div className="col-md-4 partnership1">
+                <div className="first-partnership">
+                  <div className="partnership-content">
+                    <i className="fa fa-home fa-5x"></i>
+                    <h4>Research</h4>
+                    <p>Establish your own brand with experts</p>
+                  </div>
+                  <a href="#!" className="step-btn">
+                    Step1
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="col-md-4 mt-3">
             <img src={banner3} alt="" className="img-fluid" />
-          </div>
+          </div> */}
           <div className="col-md-12 mt-5" align="center">
             <a href="#!" className="partnership-btn">
               Learn More

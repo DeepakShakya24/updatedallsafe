@@ -1,14 +1,16 @@
 import React from "react";
 import "./HotDeals.css";
-import BlockMenu from "../BlockMenu/BlockMenu";
+
 import Footer from "../Footer/Footer";
 import banner from "./res/banner.jpg";
 import SafetyBanner from "../SafetyBanner/SafetyBanner";
+import NavBar from "../NavBar/NavBar";
 
 function HotDeals() {
   return (
     <>
-      <BlockMenu />
+      <NavBar />
+
       <section className="hot-deals">
         <div className="container-fluid">
           <div className="row">

@@ -1,17 +1,21 @@
 import React from "react";
 import "./Collections.css";
-import BlockMenu from "../BlockMenu/BlockMenu";
+
 import HeadMenu from "../HeadMenu/HeadMenu";
 import Footer from "../Footer/Footer";
 import p1 from "./res/p1.JPG";
 import p2 from "./res/p2.JPG";
 import p3 from "./res/p3.JPG";
 import SafetyBanner from "../SafetyBanner/SafetyBanner";
+import NavBar from "../NavBar/NavBar";
 function Collections() {
   return (
     <>
-      <BlockMenu />
-      <HeadMenu />
+      <NavBar />
+      <div className="menu-head" align="center">
+        <HeadMenu />
+      </div>
+
       <section class="p_main_sec">
         <div class="container-fluid">
           <div class="row">

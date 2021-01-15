@@ -1,16 +1,18 @@
 import React from "react";
 import "./BusinessSolution.css";
-import BlockMenu from "../BlockMenu/BlockMenu";
+//import BlockMenu from "../BlockMenu/BlockMenu";
 import banner from "./res/banner.jpg";
 import p1 from "./res/p1.JPG";
 import p2 from "./res/p2.JPG";
 import p3 from "./res/p3.JPG";
 import Footer from "../Footer/Footer";
+import NavBar from "../NavBar/NavBar";
 
 function BusinessSolution() {
   return (
     <div className="newBusiness">
-      <BlockMenu />
+      <NavBar />
+
       <section className="business-solution">
         <div className="row">
           <div className="col-md-12 heading mb-5" align="center">
