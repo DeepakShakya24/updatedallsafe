@@ -12,10 +12,12 @@ import SafetyBanner from "./components/SafetyBanner/SafetyBanner";
 import WorkProcess from "./components/WorkProcess/WorkProcess";
 import OurOfferings from "./components/OurOfferings/OurOfferings";
 import Fade from "react-reveal/Fade";
+import NavBar from "./components/NavBar/NavBar";
 
 function Home() {
   return (
     <div className="App">
+      <NavBar />
       <BlockMenu />
       <HeadMenu />
       <GridSoftwareVisibility />

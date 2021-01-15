@@ -12,8 +12,9 @@
     background-repeat: no-repeat;
     background-position: right top;
     width: 100%;
-    /* padding-top: 175px; */
-    padding: 0px
+    padding-top: 175px;
+    padding: 0px;
+    margin-top: 7em;
 }
 
 .first-section-content {
@@ -163,7 +164,7 @@
     border-right: 100vw solid transparent;
     width: 0;
     position: absolute;
-    top: 0;
+    top: -127px;
     z-index: -1;
     bottom: 0;
 }
@@ -198,7 +199,7 @@
 }
 
 .structure {
-    margin-top: 420px;
+    margin-top: 12em;
 }
 
 .structurebox h1 {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./BlockMenu.css";
-import Logo from "./icon/theAllsafe Blue All(1).png";
+// import Logo from "./icon/theAllsafe Blue All(1).png";
 //import icon from "./icon/Free Setup Dilevery Sale Me Lo Khush Raho.png";
 import Business from "./icon/Business Solution.png";
 // import oneview from "./icon/One View.png";
@@ -23,38 +23,7 @@ const BlockMenu = () => {
   return (
     <div>
       <header>
-        {/* <div
-          class="alert  alert-dismissible fade show"
-          role="alert"
-          style={{
-            backgroundColor: "#346A9F",
-            textAlign: "center",
-            borderRadius: "0",
-          }}
-        >
-          <p style={{ fontSize: "14px", fontWeight: "300" }}>
-            <img
-              alt=""
-              src={icon}
-              width="30px"
-              style={{ marginRight: "24px" }}
-            />
-            Free Setup Between 6-12 Hours* | Sale Me Lo Khush Raho
-          </p>
-          <button
-            type="button"
-            class="close"
-            data-dismiss="alert"
-            aria-label="Close"
-            style={{ borderRadius: "50%" }}
-          >
-            <span aria-hidden="true" className="closebtn">
-              &times;
-            </span>
-          </button>
-        </div> */}
-
-        <nav
+        {/* <nav
           className="navbar navbar-expand-lg fixed-top"
           style={{
             backgroundColor: "#ffffff",
@@ -118,7 +87,7 @@ const BlockMenu = () => {
                 name="search "
                 className="form-control"
               />
-              {/*<input className="form-control input-button" type="search" value="search" id="example-search-input"/>*/}
+
               <span className="input-group-append">
                 <button
                   className="btn "
@@ -129,46 +98,9 @@ const BlockMenu = () => {
                 </button>
               </span>
             </div>
-            {/*<form className="form-inline">*/}
-
-            {/*     <div className="input-group custom-search-form">*/}
-            {/*       <input type="text" className="form-control"/>*/}
-            {/* <span className="input-group-btn">*/}
-            {/* <button className="btn btn-default" type="button">*/}
-            {/* <span className="glyphicon glyphicon-search btn-info"></span>*/}
-            {/*</button>*/}
-            {/*</span>*/}
-            {/*     </div>*/}
-            {/*<div className="card-body row no-gutters align-items-center">*/}
-
-            {/*  <div className="col ">*/}
-            {/*    <input className="form-control form-control-lg form-control-borderless" type="search"*/}
-            {/*           placeholder=""/>*/}
-            {/*  </div>*/}
-            {/*  <div className="col-auto ">*/}
-            {/*    <i className="fa fa-search h4 form-control-borderless"></i>*/}
-            {/*  </div>*/}
-
-            {/*</div>*/}
-
-            {/*  <div className="form-group has-search"><span className="fa fa-search form-control-feedback"></span>*/}
-            {/*    <input type="text" className="form-control" placeholder=" "width="50%"/>*/}
-
-            {/*</div>*/}
-            {/*<input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>*/}
-            {/*  <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*/}
-
-            {/*</form>*/}
 
             <div className="col-lg-4 mr-5 mt-2 mb-2">
               <ul className="navbar-nav">
-                {/*<li className="nav-item active">*/}
-
-                {/*  <a href="!#">*/}
-                {/*    <img alt="cart" src={cart}width="20%"/>*/}
-                {/*  </a>*/}
-                {/*</li>*/}
-
                 <li className="nav-item">
                   <a href="!#">
                     <i className="fa fa-shopping-cart fa-2x mr-5 mt-2"></i>
@@ -197,7 +129,7 @@ const BlockMenu = () => {
               </ul>
             </div>
           </div>
-        </nav>
+        </nav> */}
 
         {/*<nav className="navbar-expand-md fixed-top" style={{backgroundColor: "#FBFBFB",borderBottom: "0.5px solid lightgrey",}} >*/}
         {/*  <div className="navbar-toggler-right">*/}
