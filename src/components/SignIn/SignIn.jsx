@@ -65,10 +65,8 @@ function SignIn() {
             </Link>
           </div>
           <div className="col-md-12" align="center">
-            <div className="login-form heading">
-              <h2>
-                Login to<span className="ship"> Your Account</span>
-              </h2>
+            <div className="login-form">
+              <h1>Login to Your Account</h1>
               <p>Login using social networks</p>
               <ul class="social-network social-circle">
                 <li>
