@@ -1,6 +1,6 @@
 import React from "react";
 import "./SignUp.css";
-import Logo from "./res/theAllsafe Blue All(1).png";
+import Logo from "./res/theAllsafe White All.png";
 import { Link } from "react-router-dom";
 function SignUp() {
   return (
