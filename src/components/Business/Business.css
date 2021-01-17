@@ -156,7 +156,6 @@
 
 .partnership1:hover {
     border: 5px solid #316698;
-    ;
 }
 
 .partnership1:hover .step-btn {
@@ -173,7 +172,7 @@
 }
 
 .partnership-content {
-    padding: 65px 45px 35px;
+    padding: 65px 0px 35px;
 }
 
 .partnership-content h4 {

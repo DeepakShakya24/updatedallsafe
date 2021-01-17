@@ -34,24 +34,22 @@ function WebDevelopment() {
               Bespoke Web Development <br></br> Company
             </h2>
             <p className="pararow1">
-              Being one of the top web development companies in the UK, Nimble
-              AppGenie provides adaptable and seamless website development
-              services for clients globally. We are committed to delivering the
-              finest web solutions that are worthy of your investments. With a
-              motive of “Stand above the crowd and rise above the noise”, we
-              develop eye-catchy and customer-friendly web designs to help
-              elevate your business to unprecedented heights.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <p className="midrow1 pararow1">
-              Competition in every business industry naturally grows over time,
-              making it extremely difficult to get your brand recognized in the
-              market. With our dedicated and highly experienced web designers
-              and developers, you can improve the brand awareness on your
-              business significantly. Our team makes sure to work with you at
-              every step, so that you can achieve all your business goals
-              through your website.
-              <br></br>Hire dedicated Web development experts from Nimble
-              AppGenie for your next big dream project!
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
         </div>
@@ -61,9 +59,13 @@ function WebDevelopment() {
               <img src={w2} alt=""></img>
               <h2 className="cardhead">WordPress Websites</h2>
               <p>
-                We use WordPress CMS to integrate better control on your
-                website. This can help you to achieve much better search engine
-                rankings, as WordPress is the most used CMS worldwide
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               `
             </div>
@@ -71,9 +73,13 @@ function WebDevelopment() {
               <img src={w3} alt=""></img>
               <h2 className="cardhead">Online Shop Websites</h2>
               <p>
-                We use WordPress CMS to integrate better control on your
-                website. This can help you to achieve much better search engine
-                rankings, as WordPress is the most used CMS worldwide
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               `
             </div>
@@ -81,17 +87,19 @@ function WebDevelopment() {
               <img src={w4} alt=""></img>
               <h2 className="cardhead">CMS Websites</h2>
               <p>
-                We use WordPress CMS to integrate better control on your
-                website. This can help you to achieve much better search engine
-                rankings, as WordPress is the most used CMS worldwide
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
           </div>
         </div>
         <div className="secheading">
-          <h1>
-            Why Nimble AppGenie for Web <br></br>Development?
-          </h1>
+          <h1>Lorem ipsum</h1>
         </div>
         <div className="row">
           <div class="col-md-6">
@@ -140,12 +148,14 @@ function WebDevelopment() {
                 <h1>Web Development Frameworks</h1>
                 <p>
                   {" "}
-                  number of them available, and every one of them has its pros
-                  and cons. We use the latest extensible web development
-                  frameworks to provide cutting-edge web solutions, that can
-                  help you take your business to new heights.number of them
-                  available, and every one of them has its pros and cons. We use
-                  the latest extensible web
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
                 </p>
               </div>
             </div>
