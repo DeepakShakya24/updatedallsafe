@@ -7,6 +7,7 @@ import Home from "./Home";
 import BusinessSolution from "./components/BusinessSolution/BusinessSolution";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Applications from "./components/Applications/Applications";
+import WebDevelopment from "./components/WebDevelopment/WebDevelopment";
 
 const BaseRoute = () => {
   return (
@@ -18,6 +19,7 @@ const BaseRoute = () => {
       <Route exact path="/businessSolution" component={BusinessSolution} />
       <Route exact path="/contactus" component={ContactUs} />
       <Route exact path="/applications" component={Applications} />
+      <Route exact path="/webdevelopment" component={WebDevelopment} />
     </Switch>
   );
 };

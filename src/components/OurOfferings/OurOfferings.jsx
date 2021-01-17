@@ -3,6 +3,7 @@ import "./OurOffering.css";
 import android from "./res/android.png";
 import ai from "./res/ai-service.png";
 import ios from "./res/ios.png";
+import { Link } from "react-router-dom";
 import maintain from "./res/maintain.png";
 import uiux from "./res/uiux.png";
 import webdev from "./res/web-development.png";
@@ -56,9 +57,9 @@ function OurOfferings() {
                 Web <br />
                 Development
               </h4>
-              <a href="#!" class="">
+              <Link to="/webdevelopment" class="">
                 <i class="fa fa-plus"></i>
-              </a>
+              </Link>
               <img
                 src={webdev}
                 alt="web app development company Spain and Poland"
