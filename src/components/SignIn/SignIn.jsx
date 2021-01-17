@@ -58,7 +58,7 @@ function SignIn() {
   return (
     <div>
       <div className="row">
-        <div className="col-md-8">
+        <div className="col-md-6">
           <div className="logo">
             <Link to="/" className="navbar-brand">
               <img alt="logo" src={Logo} width="300px" />
@@ -68,19 +68,19 @@ function SignIn() {
             <div className="login-form">
               <h1>Login to Your Account</h1>
               <p>Login using social networks</p>
-              <ul class="social-network social-circle">
+              <ul className="form-login-icons">
                 <li>
-                  <a href="#!" class="icoFacebook" title="Facebook">
+                  <a href="#!" class="icon-Facebook" title="Facebook">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="icoTwitter" title="Twitter">
-                    <i class="fa fa-twitter"></i>
+                  <a href="#!" class="icon-google" title="Facebook">
+                    <i class="fa fa-google"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#!" class="icoLinkedin" title="Linkedin">
+                  <a href="#!" class="icon-linkedin" title="Facebook">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
@@ -107,6 +107,7 @@ function SignIn() {
             </div>
           </div>
         </div>
+        <div className="col-md-2"></div>
         <div className="col-md-4">
           <section className="login-background">
             <div className="col-md-12" align="center">

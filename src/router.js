@@ -9,6 +9,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Applications from "./components/Applications/Applications";
 import WebDevelopment from "./components/WebDevelopment/WebDevelopment";
 import SignIn from "./components/SignIn/SignIn";
+import SignUp from "./components/SignUp/SignUp";
 
 const BaseRoute = () => {
   return (
@@ -22,6 +23,7 @@ const BaseRoute = () => {
       <Route exact path="/applications" component={Applications} />
       <Route exact path="/webdevelopment" component={WebDevelopment} />
       <Route exact path="/signin" component={SignIn} />
+      <Route exact path="/signup" component={SignUp} />
     </Switch>
   );
 };
