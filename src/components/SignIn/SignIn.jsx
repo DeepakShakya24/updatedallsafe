@@ -113,7 +113,11 @@ function SignIn() {
             <div className="col-md-12" align="center">
               <div className="login-content">
                 <h1>New Here?</h1>
-                <p>Sign up and discover a great amount of new opportunities!</p>
+                <p>
+                  Sign up and discover a <br />
+                  great amount of new <br />
+                  opportunities!
+                </p>
                 <button className="signup-form-btn">Sign up</button>
               </div>
             </div>

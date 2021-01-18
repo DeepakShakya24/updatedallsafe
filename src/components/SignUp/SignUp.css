@@ -319,7 +319,7 @@
     text-align: center;
     margin: 32px 0;
     transition: .3s;
-    box-shadow: 0 12px 24px rgba(34, 51, 49, .13);
+    box-shadow: 0 12px 24px rgba(85, 97, 96, 0.13);
 }
 
 .signup-form-btn:hover {
@@ -334,17 +334,18 @@
 
 .signUp-background {
     background-image: linear-gradient(253deg, #3ba5b4 0, #38ba8a 100%);
+    background: #172337;
     width: 100%;
-    height: 103vh;
+    height: 102.3vh;
     position: absolute;
     top: 0;
     z-index: 20;
     overflow: hidden;
-    max-width: 30rem;
+    max-width: 50rem;
 }
 
 .signUp-content {
-    margin-top: 150px;
+    margin-top: 200px;
     text-align: center;
 }
 
@@ -361,17 +362,13 @@
 
 .signUp-content p {
     width: 100%;
-    /* max-width: 700px; */
+    max-width: 700px;
     color: #fff;
     font-size: 1.375rem;
     letter-spacing: 0;
     line-height: 36px;
     text-align: center;
-    margin-bottom: 32px;
-}
-
-.particles {
-    height: 115%;
+    margin-bottom: 20px;
 }
 
 

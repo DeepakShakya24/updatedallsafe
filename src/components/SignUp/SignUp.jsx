@@ -17,8 +17,9 @@ function SignUp() {
               <div className="signUp-content">
                 <h1>One Of Us?</h1>
                 <p>
-                  If you already have an account, just sign in. We've missed
-                  you!
+                  If you already have an
+                  <br /> account, just sign in.We've <br />
+                  missed you!
                 </p>
                 <button className="signup-form-btn">Sign in</button>
               </div>
