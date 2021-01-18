@@ -25,28 +25,12 @@ function SignUp() {
             </div>
           </section>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-8">
           <div className="col-md-12" align="center">
             <div className="signUp-form">
               <h1>Create Free Account</h1>
               <p>Sign up using social networks</p>
-              {/* <ul class="social-network social-circle">
-                <li>
-                  <a href="#!" class="icoFacebook" title="Facebook">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="icoTwitter" title="Twitter">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="icoLinkedin" title="Linkedin">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul> */}
+
               <ul className="form-login-icons">
                 <li>
                   <a href="#!" class="icon-Facebook" title="Facebook">
@@ -101,7 +85,6 @@ function SignUp() {
             </div>
           </div>
         </div>
-        <div className="col-md-2"></div>
       </div>
     </div>
   );
