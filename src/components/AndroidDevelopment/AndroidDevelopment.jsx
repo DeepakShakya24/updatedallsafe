@@ -62,7 +62,6 @@ function AndroidDevelopment() {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              `
             </div>
             <div class="col-sm-4 cd">
               <img src={w3} alt=""></img>
@@ -73,7 +72,6 @@ function AndroidDevelopment() {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              `
             </div>
             <div class="col-sm-4 cd">
               <img src={w4} alt=""></img>
