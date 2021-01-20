@@ -10,6 +10,7 @@ import Applications from "./components/Applications/Applications";
 import WebDevelopment from "./components/WebDevelopment/WebDevelopment";
 import SignIn from "./components/SignIn/SignIn";
 import SignUp from "./components/SignUp/SignUp";
+import AndroidDevelopment from "./components/AndroidDevelopment/AndroidDevelopment";
 
 const BaseRoute = () => {
   return (
@@ -24,6 +25,7 @@ const BaseRoute = () => {
       <Route exact path="/webdevelopment" component={WebDevelopment} />
       <Route exact path="/signin" component={SignIn} />
       <Route exact path="/signup" component={SignUp} />
+      <Route exact path="/android-development" component={AndroidDevelopment} />
     </Switch>
   );
 };

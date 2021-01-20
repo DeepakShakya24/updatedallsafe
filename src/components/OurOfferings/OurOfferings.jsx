@@ -72,9 +72,9 @@ function OurOfferings() {
                 Android App <br />
                 Development
               </h4>
-              <a href="#!" class="">
+              <Link to="/android-development" class="">
                 <i class="fa fa-plus"></i>
-              </a>
+              </Link>
               <img
                 src={android}
                 alt="Nimble AppGenie - Mobile app development services Germany and Texas"
