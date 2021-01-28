@@ -11,6 +11,7 @@ import WebDevelopment from "./components/WebDevelopment/WebDevelopment";
 import SignIn from "./components/SignIn/SignIn";
 import SignUp from "./components/SignUp/SignUp";
 import AndroidDevelopment from "./components/AndroidDevelopment/AndroidDevelopment";
+import iosDevelopment from "./components/iosDeveleopment/iosDevelopment";
 
 const BaseRoute = () => {
   return (
@@ -26,6 +27,7 @@ const BaseRoute = () => {
       <Route exact path="/signin" component={SignIn} />
       <Route exact path="/signup" component={SignUp} />
       <Route exact path="/android-development" component={AndroidDevelopment} />
+      <Route exact path="/ios-development" component={iosDevelopment} />
     </Switch>
   );
 };

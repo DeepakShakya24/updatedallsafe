@@ -14,7 +14,7 @@ function OurOfferings() {
       <div class="container">
         <div class="container heading">
           <h2>
-            <div class="circle pulse"></div>
+            {/* <div class="circle pulse"></div> */}
             OUR <span className="ship">OFFERINGS</span>
           </h2>
         </div>
@@ -52,49 +52,55 @@ function OurOfferings() {
           </div>
 
           <div class="col-md-3">
-            <div class="service-home-box">
-              <h4>
-                Web <br />
-                Development
-              </h4>
-              <Link to="/webdevelopment" class="">
-                <i class="fa fa-plus"></i>
-              </Link>
-              <img
-                src={webdev}
-                alt="web app development company Spain and Poland"
-              />
-            </div>
+            <Link to="/webdevelopment" style={{ textDecoration: "none" }}>
+              <div class="service-home-box">
+                <h4>
+                  Web <br />
+                  Development
+                </h4>
+                <Link to="/webdevelopment" class="">
+                  <i class="fa fa-plus"></i>
+                </Link>
+                <img
+                  src={webdev}
+                  alt="web app development company Spain and Poland"
+                />
+              </div>
+            </Link>
           </div>
           <div class="col-md-3">
-            <div class="service-home-box">
-              <h4>
-                Android App <br />
-                Development
-              </h4>
-              <Link to="/android-development" class="">
-                <i class="fa fa-plus"></i>
-              </Link>
-              <img
-                src={android}
-                alt="Nimble AppGenie - Mobile app development services Germany and Texas"
-              />
-            </div>
+            <Link to="/android-development" style={{ textDecoration: "none" }}>
+              <div class="service-home-box">
+                <h4>
+                  Android App <br />
+                  Development
+                </h4>
+                <Link to="/android-development" class="">
+                  <i class="fa fa-plus"></i>
+                </Link>
+                <img
+                  src={android}
+                  alt="Nimble AppGenie - Mobile app development services Germany and Texas"
+                />
+              </div>
+            </Link>
           </div>
           <div class="col-md-3">
-            <div class="service-home-box">
-              <h4>
-                iOS App <br />
-                Development
-              </h4>
-              <a href="#!" class="">
-                <i class="fa fa-plus"></i>
-              </a>
-              <img
-                src={ios}
-                alt="Top Graphic Designers in Houston and Germany"
-              />
-            </div>
+            <Link to="/ios-development" style={{ textDecoration: "none" }}>
+              <div class="service-home-box">
+                <h4>
+                  iOS App <br />
+                  Development
+                </h4>
+                <a href="#!" class="">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img
+                  src={ios}
+                  alt="Top Graphic Designers in Houston and Germany"
+                />
+              </div>
+            </Link>
           </div>
           <div class="col-md-3">
             <div class="service-home-box">
