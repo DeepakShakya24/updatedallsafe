@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import Logo from "./res/theAllsafe Blue All(1).png";
+import Logo from "./res/theAllsafe Blue All.png";
 function NavBar() {
   return (
     <div>
@@ -15,7 +15,12 @@ function NavBar() {
         >
           <div className="col-lg-3 mt-2 mb-2">
             <Link to="/" className="navbar-brand">
-              <img alt="logo" src={Logo} width="180px" />
+              <img
+                alt="logo"
+                src={Logo}
+                width="auto"
+                style={{ height: "40px" }}
+              />
             </Link>
           </div>
           <button
@@ -63,7 +68,7 @@ function NavBar() {
               </ul>
             </div>
 
-            <div className="input-group col-md-4">
+            <div className="input-group col-md-4 mt-2">
               <input
                 type="text"
                 placeholder=""
