@@ -33,7 +33,7 @@ function WebDevelopment() {
         </div>
         <div class="row">
           <div class="col-md-6">
-            <img className="img1" src={w1} alt=""></img>
+            <img className="image1" src={w1} alt=""></img>
           </div>
           <div class="col-md-6">
             <h2 className="row1head">

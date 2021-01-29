@@ -4,7 +4,7 @@
 
 .img1 {
   width: 80%;
-  float: right;
+  padding: 15px;
 }
 
 .row1head {
@@ -81,8 +81,8 @@
 }
 
 .img5 {
-  height: 80%;
-  width: 100%;
+  width: 90%;
+  padding: 15px;
 }
 
 .row4 {
@@ -227,15 +227,15 @@
 .row5r span {
   font-size: 70px;
   font-weight: bolder;
-  color: #26aae2;
-  display: block;
-  float: right;
-  text-shadow: rgba(38, 171, 226, 0.9);
+  color: #316698;
+  /* display: block;
+  float: right; */
+  text-shadow: rgba(6, 78, 109, 0.9);
 }
 
-.row5r p {
+/* .row5r p {
   display: inline-block;
   padding-left: 30px;
   padding-right: 0;
   margin-right: 0;
-}
+} */

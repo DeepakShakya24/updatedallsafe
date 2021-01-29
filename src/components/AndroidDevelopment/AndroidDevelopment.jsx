@@ -98,7 +98,7 @@ function AndroidDevelopment() {
         </div>
         <div className="row">
           <div class="col-md-6">
-            <img className="img5" src={w5} alt=""></img>
+            <img className="img5 img-fluid" src={w5} alt="" />
           </div>
           <div class="col-md-6">
             <div className="row3r row3rr">
@@ -282,9 +282,10 @@ function AndroidDevelopment() {
               </form>
             </div>
             <div class="col-md-4 row5r">
-              <span>REQUEST</span>
-              <span>FREE</span>
+              <span>REQUEST </span>
+              <span>FREE </span>
               <span>QUOTE</span>
+
               <p>
                 Share your business ideas with us now and get free consultation
                 for app development for your.
