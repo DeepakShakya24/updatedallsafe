@@ -191,19 +191,18 @@
 }
 
 .button {
-  height: 40px;
-  width: 150px;
   color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 2px double #26aae2;
   margin: 40px;
-  margin-top: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
 }
-
-.button .fa {
-  padding: 5px;
+.file-upload {
+  cursor: pointer;
+}
+input[type="file"] {
+  display: none;
 }
 
 .button2 {

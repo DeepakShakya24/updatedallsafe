@@ -269,13 +269,13 @@ function AndroidDevelopment() {
                     <input type="text" placeholder="Your Message" />
                   </div>
                 </div>
-                <div className="button">
-                  <i class="fa fa-plus"></i>
-                  <span>Browse</span>
+                <div className="col-md-2 button">
+                  <label class="file-upload">
+                    <input type="file" />
+                    <i class="fa fa-plus"></i> <span>Browse</span>
+                  </label>
                 </div>
-                {/* <div className="button2">
-                  <span>Send Message</span>
-                </div> */}
+
                 <div className="col-md-12">
                   <button className="button2">Send Message</button>
                 </div>
