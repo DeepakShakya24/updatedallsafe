@@ -22,8 +22,14 @@ function AndroidDevelopment() {
     <>
       <NavBar />
       <div className="webdevelopment">
-        <div className="heading">
-          <h1>ANDROID DEVELOPMENT</h1>
+        <div
+          className="col-md-12 heading"
+          align="center"
+          style={{ marginTop: "5em" }}
+        >
+          <h2>
+            ANDROID <span className="ship">DEVELOPMENT</span>
+          </h2>
         </div>
         <div class="row">
           <div class="col-md-6">
@@ -182,32 +188,35 @@ function AndroidDevelopment() {
         <div className="row5">
           <div class="row">
             <div class="col-md-8">
-              <form>
+              <form onsubmit="return false">
                 <div className="new1">
                   <div className="input1">
                     <i class="fa fa-user"></i>
-
+                    {"  "}
                     <input type="name" placeholder="Your Name*" />
                   </div>
                   <div className="input1">
                     <i class="fa fa-envelope"></i>
+                    {"  "}
                     <input type="email" placeholder="Your Email*" />
                   </div>
                 </div>
                 <div className="new2">
                   <div className="input1">
                     <i class="fa fa-phone"></i>
-
+                    {"  "}
                     <input type="name" placeholder="Your Phone Number*" />
                   </div>
                   <div className="input1">
                     <i class="fa fa-flag"></i>
+                    {"  "}
                     <input type="email" placeholder="Country*" />
                   </div>
                 </div>
                 <div className="new2">
                   <div className="input1">
                     <i class="fa fa-clipboard"></i>
+                    {"  "}
                     <input
                       list="browsers"
                       name="browser"
@@ -222,6 +231,7 @@ function AndroidDevelopment() {
                   </div>
                   <div className="input1">
                     <i class="fa fa-map-marker"></i>
+                    {"  "}
                     <input
                       list="browsers"
                       name="browser"
@@ -238,6 +248,7 @@ function AndroidDevelopment() {
                 <div className="new2 new3 ">
                   <div className="input2 ">
                     <i class="fa fa-phone"></i>
+                    {"  "}
                     <input
                       list="browsers"
                       name="browser"
@@ -254,6 +265,7 @@ function AndroidDevelopment() {
                 <div className="new2 new3 new5 ">
                   <div className="input2 ">
                     <i class="fa fa-comment"></i>
+                    {"  "}
                     <input type="text" placeholder="Your Message" />
                   </div>
                 </div>
@@ -261,8 +273,11 @@ function AndroidDevelopment() {
                   <i class="fa fa-plus"></i>
                   <span>Browse</span>
                 </div>
-                <div className="button2">
+                {/* <div className="button2">
                   <span>Send Message</span>
+                </div> */}
+                <div className="col-md-12">
+                  <button className="button2">Send Message</button>
                 </div>
               </form>
             </div>
