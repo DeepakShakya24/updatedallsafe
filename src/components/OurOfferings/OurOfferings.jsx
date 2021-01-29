@@ -92,9 +92,9 @@ function OurOfferings() {
                   iOS App <br />
                   Development
                 </h4>
-                <a href="#!" class="">
+                <Link to="/ios-development" class="">
                   <i class="fa fa-plus"></i>
-                </a>
+                </Link>
                 <img
                   src={ios}
                   alt="Top Graphic Designers in Houston and Germany"
