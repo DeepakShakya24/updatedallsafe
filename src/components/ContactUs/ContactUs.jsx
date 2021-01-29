@@ -3,15 +3,14 @@ import "./ContactUs.css";
 import Logo from "./res/theAllsafe White All.png";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-// import BlockMenu from "../BlockMenu/BlockMenu";
-// import Footer from "../Footer/Footer";
+// import NavBar from "../NavBar/NavBar";
 function ContactUs() {
   return (
     <>
       <section class="contact-sec">
         <Fade top>
           <div className="row">
-            <div className="col-md-6 right mt-2">
+            <div className="col-md-4 right mt-2">
               <div className="contactheading">
                 <Link to="/" className="navbar-brand">
                   <img alt="logo" src={Logo} width="300px" />
@@ -92,7 +91,7 @@ function ContactUs() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-6 left">
+            <div className="col-md-8 left">
               <h2 style={{ textAlign: "center" }}>
                 <span>CONTACT</span> <span className="ship">US</span>
               </h2>
@@ -102,7 +101,7 @@ function ContactUs() {
                     <div className="row">
                       <div className="col-md-12">
                         <label htmlFor="">
-                          What is your firstname?
+                          FullName
                           <span className="indication">*</span>
                         </label>
                         <br />
@@ -115,7 +114,7 @@ function ContactUs() {
                       </div>
                       <div className="col-md-12 mt-4">
                         <label htmlFor="">
-                          What is your lastname?
+                          Email
                           <span className="indication">*</span>
                         </label>
                         <br />
@@ -128,7 +127,7 @@ function ContactUs() {
                       </div>
                       <div className="col-md-12 mt-4">
                         <label htmlFor="">
-                          What is your email?
+                          PhoneNumber
                           <span className="indication">*</span>
                         </label>
                         <br />
@@ -141,12 +140,12 @@ function ContactUs() {
                       </div>
                       <div className="col-md-12 mt-4">
                         <label htmlFor="">
-                          What is your PhoneNumber?
+                          Message
                           <span className="indication">*</span>
                         </label>
                         <br />
                         <input
-                          type="text"
+                          type="text-area"
                           name=""
                           id=""
                           className="firstfield"
