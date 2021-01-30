@@ -16,7 +16,7 @@ function ContactUs() {
             <div className="col-md-8 left">
               <div className="contact-icon">
                 <Link to="/">
-                  <img src={Logo1} alt="" width="300px" />
+                  <img src={Logo1} alt="" height="43.25" />
                 </Link>
               </div>
               <h2 style={{ textAlign: "center" }}>
@@ -101,7 +101,7 @@ function ContactUs() {
 
               <div className="address1">
                 <div className="home-icon" align="right">
-                  <i className="fa fa-home fa-4x"></i>
+                  <i className="fa fa-home fa-3x"></i>
                 </div>
                 <div className="contact-content">
                   <h4>
