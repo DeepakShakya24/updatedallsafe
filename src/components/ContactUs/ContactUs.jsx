@@ -16,7 +16,7 @@ function ContactUs() {
             <div className="col-md-8 left">
               <div className="contact-icon">
                 <Link to="/">
-                  <img src={Logo1} alt="" width="200px" />
+                  <img src={Logo1} alt="" width="300px" />
                 </Link>
               </div>
               <h2 style={{ textAlign: "center" }}>
