@@ -5,6 +5,7 @@ import Logo1 from "./res/theAllsafe Blue All.png";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 // import NavBar from "../NavBar/NavBar";
+//import Particle from "react-particles-js";
 function ContactUs() {
   return (
     <>
@@ -99,6 +100,7 @@ function ContactUs() {
               </div>
 
               <div className="address1">
+                {/* <Particle className="particles" /> */}
                 <h5>
                   <i className="fa fa-map-marker"></i>{" "}
                   <a href="#!">London Headquarters</a>
@@ -116,7 +118,7 @@ function ContactUs() {
                 <p>T. +44 2035751335</p>
                 <p>allsafe@gmail.com</p>
               </div>
-              <div class="col-md-12 mt-4" align="center">
+              <div class="col-md-12 icon-handles" align="center">
                 <ul class="social-network social-circle">
                   <li>
                     <a href="#!" class="icoFacebook" title="Facebook">

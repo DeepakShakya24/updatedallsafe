@@ -1,7 +1,9 @@
 .right {
-  /* background-color: #2463a1; */
-  background-image: linear-gradient(253deg, #2463a1 0, #2463a1 100%);
+  background: #172337;
+  /* background-image: linear-gradient(253deg, #2463a1 0, #2463a1 100%); */
   padding: 30px 60px;
+  width: 100%;
+  height: 102.3vh;
 }
 
 /* .contactheading {
@@ -54,6 +56,12 @@
 
 .left .ship {
   color: #2463a1;
+}
+.particles {
+  height: 103vh;
+}
+.icon-handles {
+  margin-top: 184px;
 }
 
 .social-handles {
