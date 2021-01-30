@@ -87,6 +87,7 @@
 
 .fields {
   margin-top: 50px;
+  padding-left: 150px;
 }
 
 .fields input {
@@ -95,16 +96,23 @@
   width: 500px;
   outline: 0;
 }
+.home-icon {
+  margin-top: -5em;
+  padding-bottom: 25px;
+}
 .submit-btn {
-  padding: 15px;
+  padding-left: 150px;
 }
 .submit-btn a {
   font-weight: bold;
   font-size: 20px;
 }
 .submit-btn .c_btn_right {
-  margin-top: 3em;
+  /* margin-top: 3em; */
   width: 20%;
+}
+.contact-content {
+  margin-top: 70px;
 }
 
 .submit-btn i {

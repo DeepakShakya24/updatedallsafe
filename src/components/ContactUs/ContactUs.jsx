@@ -85,7 +85,7 @@ function ContactUs() {
                   <a
                     href="#!"
                     class="btn c_btn_right"
-                    style={{ marginTop: "3em" }}
+                    style={{ marginTop: "2em" }}
                   >
                     Submit <i className="fa fa-check-circle-o"></i>
                   </a>
@@ -100,20 +100,24 @@ function ContactUs() {
               </div>
 
               <div className="address1">
-                {/* <Particle className="particles" /> */}
-                <h5>
-                  <i className="fa fa-map-marker"></i>{" "}
-                  <a href="#!">London Headquarters</a>
-                </h5>
-                <p>Shelton Street 71-75 Covent Garden</p>
-                <p>T. +44 2035751335</p>
-                <p>allsafe@gmail.com</p>
+                <div className="home-icon" align="right">
+                  <i className="fa fa-home fa-4x"></i>
+                </div>
+                <div className="contact-content">
+                  <h4>
+                    <i className="fa fa-map-marker"></i>{" "}
+                    <a href="#!">London Headquarters</a>
+                  </h4>
+                  <p>Shelton Street 71-75 Covent Garden</p>
+                  <p>T. +44 2035751335</p>
+                  <p>allsafe@gmail.com</p>
+                </div>
               </div>
               <div className="address1">
-                <h5>
+                <h4>
                   <i className="fa fa-map-marker"></i>{" "}
                   <a href="#!">London Headquarters</a>
-                </h5>
+                </h4>
                 <p>Shelton Street 71-75 Covent Garden</p>
                 <p>T. +44 2035751335</p>
                 <p>allsafe@gmail.com</p>
