@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactUs.css";
-import Logo from "./res/theAllsafe White All.png";
+//import Logo from "./res/theAllsafe White All.png";
 import Logo1 from "./res/theAllsafe Blue All.png";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
@@ -10,8 +10,14 @@ function ContactUs() {
     <>
       <section class="contact-sec">
         <Fade top>
+          {/* <img src={Logo1} alt="" width="300px" className="contact-icon" /> */}
           <div className="row">
             <div className="col-md-8 left">
+              <div className="contact-icon">
+                <Link to="/">
+                  <img src={Logo1} alt="" width="200px" />
+                </Link>
+              </div>
               <h2 style={{ textAlign: "center" }}>
                 <span>CONTACT</span> <span className="ship">US</span>
               </h2>
@@ -86,18 +92,6 @@ function ContactUs() {
               </form>
             </div>
             <div className="col-md-4 right">
-              <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
               <div className="contactheading">
                 {/* <Link to="/" className="navbar-brand">
                   <img alt="logo" src={Logo} width="300px" />
@@ -122,37 +116,7 @@ function ContactUs() {
                 <p>T. +44 2035751335</p>
                 <p>allsafe@gmail.com</p>
               </div>
-              <div className="address1">
-                <h5>
-                  <i className="fa fa-map-marker"></i>{" "}
-                  <a href="#!">London Headquarters</a>
-                </h5>
-                <p>Shelton Street 71-75 Covent Garden</p>
-                <p>T. +44 2035751335</p>
-                <p>allsafe@gmail.com</p>
-              </div>
-              {/* <div className="social-handles">
-                <div className="row">
-                  <div className="col-md-12" align="center">
-                    <a href="#!">
-                      <i className="fa fa-linkedin fa-2x"></i>
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#!">
-                      <i className="fa fa-instagram fa-2x"></i>
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#!">
-                      <i className="fa fa-twitter fa-2x"></i>
-                    </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#!">
-                      <i className="fa fa-facebook fa-2x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div> */}
-              <div class="col-md-12" align="center">
+              <div class="col-md-12 mt-4" align="center">
                 <ul class="social-network social-circle">
                   <li>
                     <a href="#!" class="icoFacebook" title="Facebook">
