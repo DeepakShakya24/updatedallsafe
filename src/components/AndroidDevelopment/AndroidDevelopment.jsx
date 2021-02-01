@@ -281,10 +281,7 @@ function AndroidDevelopment() {
               </form>
             </div>
             <div class="col-md-4 row5r">
-              <h1>
-                REQUEST <br />
-                FREE QUOTE
-              </h1>
+              <h1>REQUEST FREE QUOTE</h1>
               <p>
                 Share your business ideas with us now and get free consultation
                 for app development for your.

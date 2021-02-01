@@ -80,7 +80,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <a href="#!">Privacy Policy</a>
+                  <a href="/privacy-policy">Privacy Policy</a>
                 </li>
               </ul>
             </div>
@@ -99,7 +99,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <a href="#!">Corporate Outsourcing </a>
+                  <a href="/corporate-outsourcing">Corporate Outsourcing </a>
                 </li>
 
                 <li>

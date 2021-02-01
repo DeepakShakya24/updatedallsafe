@@ -13,6 +13,10 @@ import SignUp from "./components/SignUp/SignUp";
 import AndroidDevelopment from "./components/AndroidDevelopment/AndroidDevelopment";
 import iosDevelopment from "./components/iosDeveleopment/iosDevelopment";
 import AI from "./components/AI/AI";
+import Maintainance from "./components/Maintainance/Maintainance";
+import UI from "./components/UIdesign/UI";
+import corporateOutsourcing from "./components/CorporateOutsourcing/corporateOutsourcing";
+import privacy from "./components/Privacypolicy/privacy";
 
 const BaseRoute = () => {
   return (
@@ -30,6 +34,14 @@ const BaseRoute = () => {
       <Route exact path="/android-development" component={AndroidDevelopment} />
       <Route exact path="/ios-development" component={iosDevelopment} />
       <Route exact path="/artificial-intelligence" component={AI} />
+      <Route exact path="/maintainance-and-support" component={Maintainance} />
+      <Route exact path="/ui-design" component={UI} />
+      <Route
+        exact
+        path="/corporate-outsourcing"
+        component={corporateOutsourcing}
+      />
+      <Route exact path="/privacy-policy" component={privacy} />
     </Switch>
   );
 };

@@ -73,7 +73,6 @@ function WebDevelopment() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              `
             </div>
             <div class="col-sm-4 cd">
               <img src={w3} alt=""></img>
@@ -87,7 +86,6 @@ function WebDevelopment() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              `
             </div>
             <div class="col-sm-4 cd">
               <img src={w4} alt=""></img>
@@ -194,6 +192,110 @@ function WebDevelopment() {
                   <h4>Laravel</h4>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="row5">
+          <div class="row">
+            <div class="col-md-8">
+              <form onsubmit="return false">
+                <div className="new1">
+                  <div className="input1">
+                    <i class="fa fa-user"></i>
+                    {"  "}
+                    <input type="name" placeholder="Your Name*" />
+                  </div>
+                  <div className="input1">
+                    <i class="fa fa-envelope"></i>
+                    {"  "}
+                    <input type="email" placeholder="Your Email*" />
+                  </div>
+                </div>
+                <div className="new2">
+                  <div className="input1">
+                    <i class="fa fa-phone"></i>
+                    {"  "}
+                    <input type="name" placeholder="Your Phone Number*" />
+                  </div>
+                  <div className="input1">
+                    <i class="fa fa-flag"></i>
+                    {"  "}
+                    <input type="email" placeholder="Country*" />
+                  </div>
+                </div>
+                <div className="new2">
+                  <div className="input1">
+                    <i class="fa fa-clipboard"></i>
+                    {"  "}
+                    <input
+                      list="browsers"
+                      name="browser"
+                      id="browser"
+                      placeholder="I am interested in"
+                    />
+                    <datalist id="browsers">
+                      <option value="lorem epsum.."></option>
+                      <option value="lorem epsum.."></option>
+                      <option value="lorem epsum.."></option>
+                    </datalist>
+                  </div>
+                  <div className="input1">
+                    <i class="fa fa-map-marker"></i>
+                    {"  "}
+                    <input
+                      list="browsers"
+                      name="browser"
+                      id="browser"
+                      placeholder="How did you find us"
+                    />
+                    <datalist id="browsers">
+                      <option value="lorem epsum.."></option>
+                      <option value="lorem epsum.."></option>
+                      <option value="lorem epsum.."></option>
+                    </datalist>
+                  </div>
+                </div>
+                <div className="new2 new3 ">
+                  <div className="input2 ">
+                    <i class="fa fa-phone"></i>
+                    {"  "}
+                    <input
+                      list="browsers"
+                      name="browser"
+                      id="browser"
+                      placeholder="When do you want to get started"
+                    />
+                    <datalist id="browsers">
+                      <option value="lorem epsum.."></option>
+                      <option value="lorem epsum.."></option>
+                      <option value="lorem epsum.."></option>
+                    </datalist>
+                  </div>
+                </div>
+                <div className="new2 new3 new5 ">
+                  <div className="input2 ">
+                    <i class="fa fa-comment"></i>
+                    {"  "}
+                    <input type="text" placeholder="Your Message" />
+                  </div>
+                </div>
+                <div className="col-md-2 button">
+                  <label class="file-upload">
+                    <input type="file" />
+                    <i class="fa fa-plus"></i> <span>Browse</span>
+                  </label>
+                </div>
+                <div className="col-md-12">
+                  <button className="button2">Send Message</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-4 row5r">
+              <h1>REQUEST FREE QUOTE</h1>
+              <p>
+                Share your business ideas with us now and get free consultation
+                for app development for your.
+              </p>
             </div>
           </div>
         </div>

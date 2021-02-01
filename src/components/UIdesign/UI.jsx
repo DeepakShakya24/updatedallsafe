@@ -1,5 +1,5 @@
 import React from "react";
-import "./AI.css";
+import "./UI.css";
 import w1 from "./res/web-development1.png";
 import w2 from "./res/web-development2.png";
 import w3 from "./res/web-development3.png";
@@ -16,7 +16,7 @@ import w9 from "./res/web-development9.png";
 import w14 from "./res/web-development14.png";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
-const AI = () => {
+const UI = () => {
   return (
     <>
       <NavBar />
@@ -27,7 +27,7 @@ const AI = () => {
           align="center"
         >
           <h2>
-            ARTIFICIAL <span className="ship">INTELLIGENCE</span>
+            UI <span className="ship">Design</span>
           </h2>
         </div>
         <div class="row">
@@ -309,4 +309,4 @@ const AI = () => {
   );
 };
 
-export default AI;
+export default UI;

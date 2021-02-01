@@ -3,7 +3,6 @@ import "./OurOffering.css";
 import android from "./res/android.png";
 import ai from "./res/ai-service.png";
 import ios from "./res/ios.png";
-import { Link } from "react-router-dom";
 import maintain from "./res/maintain.png";
 import uiux from "./res/uiux.png";
 import webdev from "./res/web-development.png";
@@ -51,55 +50,55 @@ function OurOfferings() {
           </div>
 
           <div class="col-md-3">
-            <Link to="/webdevelopment" style={{ textDecoration: "none" }}>
+            <a href="/webdevelopment" style={{ textDecoration: "none" }}>
               <div class="service-home-box">
                 <h4>
                   Web <br />
                   Development
                 </h4>
-                <Link to="/webdevelopment" class="">
+                <a href="/webdevelopment" class="">
                   <i class="fa fa-plus"></i>
-                </Link>
+                </a>
                 <img
                   src={webdev}
                   alt="web app development company Spain and Poland"
                 />
               </div>
-            </Link>
+            </a>
           </div>
           <div class="col-md-3">
-            <Link to="/android-development" style={{ textDecoration: "none" }}>
+            <a href="/android-development" style={{ textDecoration: "none" }}>
               <div class="service-home-box">
                 <h4>
                   Android App <br />
                   Development
                 </h4>
-                <Link to="/android-development" class="">
+                <a href="/android-development" class="">
                   <i class="fa fa-plus"></i>
-                </Link>
+                </a>
                 <img
                   src={android}
                   alt="Nimble AppGenie - Mobile app development services Germany and Texas"
                 />
               </div>
-            </Link>
+            </a>
           </div>
           <div class="col-md-3">
-            <Link to="/ios-development" style={{ textDecoration: "none" }}>
+            <a href="/ios-development" style={{ textDecoration: "none" }}>
               <div class="service-home-box">
                 <h4>
                   iOS App <br />
                   Development
                 </h4>
-                <Link to="/ios-development" class="">
+                <a href="/ios-development" class="">
                   <i class="fa fa-plus"></i>
-                </Link>
+                </a>
                 <img
                   src={ios}
                   alt="Top Graphic Designers in Houston and Germany"
                 />
               </div>
-            </Link>
+            </a>
           </div>
           <div class="col-md-3">
             <a
@@ -111,9 +110,9 @@ function OurOfferings() {
                   Artificial <br />
                   Intelligence
                 </h4>
-                <Link to="/artificial-intelligence">
+                <a href="/artificial-intelligence">
                   <i class="fa fa-plus"></i>
-                </Link>
+                </a>
                 <img
                   src={ai}
                   alt="Nimble AppGenie - Mobile app development services Germany and Texas"
@@ -123,31 +122,38 @@ function OurOfferings() {
           </div>
 
           <div class="col-md-3">
-            <div class="service-home-box">
-              <h4>
-                Maintenance and <br />
-                Support
-              </h4>
-              <a href="#!" class="">
-                <i class="fa fa-plus"></i>
-              </a>
-              <img src={maintain} alt="Top Web Designers in Houston" />
-            </div>
+            <a
+              href="/maintainance-and-support"
+              style={{ textDecoration: "none" }}
+            >
+              <div class="service-home-box">
+                <h4>
+                  Maintenance and <br />
+                  Support
+                </h4>
+                <a href="#!" class="">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img src={maintain} alt="Top Web Designers in Houston" />
+              </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="service-home-box">
-              <h4>
-                UI/UX
-                <br /> Design
-              </h4>
-              <a href="#!" class="">
-                <i class="fa fa-plus"></i>
-              </a>
-              <img
-                src={uiux}
-                alt="Top Creative Agencies in London and Denmark"
-              />
-            </div>
+            <a href="/ui-design" style={{ textDecoration: "none" }}>
+              <div class="service-home-box">
+                <h4>
+                  UI/UX
+                  <br /> Design
+                </h4>
+                <a href="#!" class="">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img
+                  src={uiux}
+                  alt="Top Creative Agencies in London and Denmark"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>

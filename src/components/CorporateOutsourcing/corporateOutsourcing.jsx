@@ -1,15 +1,13 @@
 import React from "react";
-import "./Business.css";
+import "./corporate.css";
 import SafetyBanner from "../SafetyBanner/SafetyBanner";
 import Footer from "../Footer/Footer";
 import banner from "./res/1.png";
-// import banner2 from "./res/banner2.png";
-//import banner3 from "./res/banner3.png";
 import Fade from "react-reveal/Fade";
 import FullScreenSlider from "../FullScreenSliderx3/FullScreenSlider";
 import NavBar from "../NavBar/NavBar";
 
-function Business() {
+function corporateOutsourcing() {
   return (
     <>
       <NavBar />
@@ -246,4 +244,4 @@ function Business() {
   );
 }
 
-export default Business;
+export default corporateOutsourcing;
