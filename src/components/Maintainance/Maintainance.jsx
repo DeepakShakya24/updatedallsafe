@@ -27,14 +27,14 @@ const Maintainance = () => {
           align="center"
         >
           <h2>
-            Maintainance <span className="ship">SUPPORT</span>
+            MAINTAINANCE <span className="ship">SUPPORT</span>
           </h2>
         </div>
         <div class="row">
           <div class="col-md-6">
             <img className="image1" src={w1} alt=""></img>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mt-5">
             <h2 className="row1head">
               Bespoke Web Development <br></br> Company
             </h2>

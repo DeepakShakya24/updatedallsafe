@@ -35,7 +35,7 @@ function WebDevelopment() {
           <div class="col-md-6">
             <img className="image1" src={w1} alt=""></img>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mt-5">
             <h2 className="row1head">
               Bespoke Web Development <br></br> Company
             </h2>
