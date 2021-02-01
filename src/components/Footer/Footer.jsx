@@ -44,12 +44,32 @@ function Footer() {
                   className="fa fa-user-circle"
                   style={{ color: "#FFBC01" }}
                 ></i>{" "}
-                Support
+                theAllSafe
               </h4>
               <ul>
                 <li>
                   <a href="#!">About Us</a>
                 </li>
+                <li>
+                  <a href="#!">Blog</a>
+                </li>
+                <li>
+                  <a href="#!">Payment</a>
+                </li>
+                <li>
+                  <a href="#!">Terms & Condition</a>
+                </li>
+              </ul>
+            </div>
+            <div class="f_box">
+              <h4>
+                <i
+                  className="fa fa-user-circle"
+                  style={{ color: "#FFBC01" }}
+                ></i>{" "}
+                Support
+              </h4>
+              <ul>
                 <li>
                   <a href="#!">Contact Us</a>
                 </li>
@@ -57,55 +77,30 @@ function Footer() {
                   <a href="#!">Help Center</a>
                 </li>
                 <li>
-                  <a href="#!">Support on Rent</a>
+                  <a href="#!">Emergency Request</a>
                 </li>
               </ul>
             </div>
-
             <div class="f_box">
               <h4>
-                <i className="fa fa-globe" style={{ color: "#FFBC01" }}></i> The
-                All Safe
-              </h4>
-              <ul>
-                <li>
-                  <a href="#!">Blog</a>
-                </li>
-
-                <li>
-                  <a href="#!">Payment</a>
-                </li>
-                <li>
-                  <a href="#!">Terms of Use</a>
-                </li>
-
-                <li>
-                  <a href="/privacy-policy">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="f_box">
-              <h4>
-                <i className="fa fa-archive" style={{ color: "#FFBC01" }}></i>{" "}
+                <i className="fa fa-globe" style={{ color: "#FFBC01" }}></i>
                 Services
               </h4>
               <ul>
                 <li>
                   <a href="#!">Web Development</a>
                 </li>
+
                 <li>
-                  <a href="#!">Mobile Development</a>
+                  <a href="#!">Mobile Develoment</a>
+                </li>
+                <li>
+                  <a href="/corporate-outsourcing">Corporate Outsourcing</a>
                 </li>
 
                 <li>
-                  <a href="/corporate-outsourcing">Corporate Outsourcing </a>
+                  <a href="#!">Graphic Design</a>
                 </li>
-
-                <li>
-                  <a href="#!">PSD and UI Development</a>
-                </li>
-
                 <li>
                   <a href="#!">Custom Software Building</a>
                 </li>

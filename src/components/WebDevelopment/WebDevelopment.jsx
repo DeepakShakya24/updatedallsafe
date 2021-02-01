@@ -195,6 +195,7 @@ function WebDevelopment() {
             </div>
           </div>
         </div>
+        <hr />
         <div className="row5">
           <div class="row">
             <div class="col-md-8">
