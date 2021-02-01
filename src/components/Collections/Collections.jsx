@@ -49,10 +49,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
@@ -79,10 +79,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
@@ -107,10 +107,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
@@ -136,10 +136,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
@@ -166,10 +166,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
@@ -194,10 +194,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
@@ -223,10 +223,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
@@ -253,10 +253,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
@@ -281,10 +281,10 @@ function Collections() {
                 <div class="card-footer">
                   <a href="#!" class="btn c_btn_left">
                     {" "}
-                    Live Demo
+                    LIVE DEMO
                   </a>
                   <a href="#!" class="btn c_btn_right">
-                    Buy now
+                    BUY NOW
                   </a>
                 </div>
               </div>
