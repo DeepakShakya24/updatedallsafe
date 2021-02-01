@@ -211,7 +211,7 @@ function Business() {
                     <p>Earn money being a partner with theAllSafe</p>
                   </div>
                   <a href="#!" className="step-btn">
-                    Step1
+                    Step2
                   </a>
                 </div>
               </div>
@@ -223,7 +223,7 @@ function Business() {
                     <p>Establish your own brand with experts</p>
                   </div>
                   <a href="#!" className="step-btn">
-                    Step1
+                    Step3
                   </a>
                 </div>
               </div>
