@@ -150,7 +150,12 @@
   width: 40%;
   outline: 0;
 }
-
+.input1 input:hover {
+  box-shadow: none;
+}
+.input2 input:hover {
+  box-shadow: none;
+}
 .new2 {
   padding-top: 30px;
 }
