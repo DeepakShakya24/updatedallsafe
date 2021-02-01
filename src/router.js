@@ -12,6 +12,7 @@ import SignIn from "./components/SignIn/SignIn";
 import SignUp from "./components/SignUp/SignUp";
 import AndroidDevelopment from "./components/AndroidDevelopment/AndroidDevelopment";
 import iosDevelopment from "./components/iosDeveleopment/iosDevelopment";
+import AI from "./components/AI/AI";
 
 const BaseRoute = () => {
   return (
@@ -28,6 +29,7 @@ const BaseRoute = () => {
       <Route exact path="/signup" component={SignUp} />
       <Route exact path="/android-development" component={AndroidDevelopment} />
       <Route exact path="/ios-development" component={iosDevelopment} />
+      <Route exact path="/artificial-intelligence" component={AI} />
     </Switch>
   );
 };

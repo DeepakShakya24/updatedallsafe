@@ -14,7 +14,6 @@ function OurOfferings() {
       <div class="container">
         <div class="container heading">
           <h2>
-            {/* <div class="circle pulse"></div> */}
             OUR <span className="ship">OFFERINGS</span>
           </h2>
         </div>
@@ -103,19 +102,24 @@ function OurOfferings() {
             </Link>
           </div>
           <div class="col-md-3">
-            <div class="service-home-box">
-              <h4>
-                Artificial <br />
-                Intelligence
-              </h4>
-              <a href="#!" class="">
-                <i class="fa fa-plus"></i>
-              </a>
-              <img
-                src={ai}
-                alt="Nimble AppGenie - Mobile app development services Germany and Texas"
-              />
-            </div>
+            <a
+              href="/artificial-intelligence"
+              style={{ textDecoration: "none" }}
+            >
+              <div class="service-home-box">
+                <h4>
+                  Artificial <br />
+                  Intelligence
+                </h4>
+                <Link to="/artificial-intelligence">
+                  <i class="fa fa-plus"></i>
+                </Link>
+                <img
+                  src={ai}
+                  alt="Nimble AppGenie - Mobile app development services Germany and Texas"
+                />
+              </div>
+            </a>
           </div>
 
           <div class="col-md-3">

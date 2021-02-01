@@ -275,7 +275,6 @@ function AndroidDevelopment() {
                     <i class="fa fa-plus"></i> <span>Browse</span>
                   </label>
                 </div>
-
                 <div className="col-md-12">
                   <button className="button2">Send Message</button>
                 </div>
