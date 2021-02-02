@@ -7,7 +7,7 @@
 .login:hover {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   border: none;
-  border-bottom: 8px solid blueviolet;
+  border-bottom: 8px solid #2463a1;
 }
 .login i {
   padding: 20px;
