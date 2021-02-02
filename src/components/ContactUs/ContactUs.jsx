@@ -4,6 +4,7 @@ import "./ContactUs.css";
 import Logo1 from "./res/theAllsafe Blue All.png";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
+import svg from "./res/login_close (1).svg";
 // import NavBar from "../NavBar/NavBar";
 //import Particle from "react-particles-js";
 function ContactUs() {
@@ -101,7 +102,7 @@ function ContactUs() {
 
               <div className="address1">
                 <div className="home-icon" align="right">
-                  <i className="fa fa-home fa-3x"></i>
+                  <img src={svg} alt="" />
                 </div>
                 <div className="contact-content">
                   <h4>
