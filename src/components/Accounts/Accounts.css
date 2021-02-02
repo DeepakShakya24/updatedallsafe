@@ -8,7 +8,7 @@
 }
 .login:hover {
   border: none;
-  border-bottom: 8px solid yellow;
+  border-bottom: 8px solid #ffbe00;
 }
 .login i {
   padding: 20px;
