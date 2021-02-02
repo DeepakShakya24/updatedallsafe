@@ -1,90 +1,36 @@
 import React from "react";
 import "./SignIn.css";
-import Logo from "./res/theAllsafe Blue All(1).png";
+import Logo from "./res/theAllsafe Blue All.png";
 import { Link } from "react-router-dom";
-// import Particles from "react-particles-js";
-// const particlesOptions = {
-//   particles: {
-//     number: {
-//       value: 100,
-//       density: {
-//         enable: true,
-//         value_area: 800,
-//       },
-//     },
-//   },
-//   interactivity: {
-//     detect_on: "canvas",
-//     events: {
-//       onhover: {
-//         enable: true,
-//         mode: "repulse",
-//       },
-//       onclick: {
-//         enable: true,
-//         mode: "push",
-//       },
-//       resize: true,
-//     },
-//     modes: {
-//       grab: {
-//         distance: 400,
-//         line_linked: {
-//           opacity: 1,
-//         },
-//       },
-//       bubble: {
-//         distance: 400,
-//         size: 40,
-//         duration: 2,
-//         opacity: 8,
-//         speed: 3,
-//       },
-//       repulse: {
-//         distance: 200,
-//         duration: 0.4,
-//       },
-//       push: {
-//         particles_nb: 4,
-//       },
-//       remove: {
-//         particles_nb: 2,
-//       },
-//     },
-//   },
-// };
-
+import facebook from "./res/facebook.svg";
+import googleplus from "./res/google.svg";
+import linkedin from "./res/linkedin.svg";
+//import svg from "./res/login_close (1).svg";
 function SignIn() {
   return (
     <div>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-8">
           <div className="logo">
             <Link to="/" className="navbar-brand">
-              <img alt="logo" src={Logo} width="300px" />
+              <img src={Logo} alt="" height="43.25" />
             </Link>
           </div>
           <div className="col-md-12" align="center">
             <div className="login-form">
               <h1>Login to Your Account</h1>
               <p>Login using social networks</p>
-              <ul className="form-login-icons">
-                <li>
-                  <a href="#!" class="icon-Facebook" title="Facebook">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="icon-google" title="Facebook">
-                    <i class="fa fa-google"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="icon-linkedin" title="Facebook">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
+              <div className="contact-icons">
+                <a href="#!" class="" title="Facebook">
+                  <img src={facebook} alt="" />
+                </a>
+                <a href="#!" class="" title="Facebook">
+                  <img src={googleplus} alt="" />
+                </a>
+                <a href="#!" class="" title="Facebook">
+                  <img src={linkedin} alt="" />
+                </a>
+              </div>
               <form className="login_form">
                 <div className="login_form_title">
                   <div className="login-title">OR</div>
@@ -107,9 +53,13 @@ function SignIn() {
             </div>
           </div>
         </div>
-        <div className="col-md-2"></div>
         <div className="col-md-4">
           <section className="login-background">
+            {/* <div className="home-icon" align="right">
+              <a href="/">
+                <img src={svg} alt="" />
+              </a>
+            </div> */}
             <div className="col-md-12" align="center">
               <div className="login-content">
                 <h1>New Here?</h1>
