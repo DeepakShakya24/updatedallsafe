@@ -1,7 +1,7 @@
 import React from "react";
 import "./Accounts.css";
 import NavBar from "../NavBar/NavBar";
-import Footer from "../Footer/Footer";
+//import Footer from "../Footer/Footer";
 const Accounts = () => {
   return (
     <>
@@ -34,7 +34,7 @@ const Accounts = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
