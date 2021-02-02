@@ -1,6 +1,7 @@
 import React from "react";
 import "./Accounts.css";
 import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
 const Accounts = () => {
   return (
     <>
@@ -10,29 +11,30 @@ const Accounts = () => {
           <div className="col-md-3">
             <div className="login">
               <i className="fa fa-user fa-4x"></i>
-              <h3>School login</h3>
+              <h3>School Login</h3>
             </div>
           </div>
           <div className="col-md-3">
             <div className="login">
               <i className="fa fa-user fa-4x"></i>
-              <h3>User login</h3>
+              <h3>User Login</h3>
             </div>
           </div>
           <div className="col-md-3">
             <div className="login">
               <i className="fa fa-user fa-4x"></i>
-              <h3>Instructor login</h3>
+              <h3>Instructor Login</h3>
             </div>
           </div>
           <div className="col-md-3">
             <div className="login">
               <i className="fa fa-user fa-4x"></i>
-              <h3>Vendor login</h3>
+              <h3>Vendor Login</h3>
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
