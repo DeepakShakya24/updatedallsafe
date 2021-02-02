@@ -102,7 +102,9 @@ function ContactUs() {
 
               <div className="address1">
                 <div className="home-icon" align="right">
-                  <img src={svg} alt="" />
+                  <a href="/">
+                    <img src={svg} alt="" />
+                  </a>
                 </div>
                 <div className="contact-content">
                   <h4>
