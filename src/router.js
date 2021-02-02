@@ -17,6 +17,7 @@ import Maintainance from "./components/Maintainance/Maintainance";
 import UI from "./components/UIdesign/UI";
 import corporateOutsourcing from "./components/CorporateOutsourcing/corporateOutsourcing";
 import privacy from "./components/Privacypolicy/privacy";
+import Accounts from "./components/Accounts/Accounts";
 
 const BaseRoute = () => {
   return (
@@ -42,6 +43,7 @@ const BaseRoute = () => {
         component={corporateOutsourcing}
       />
       <Route exact path="/privacy-policy" component={privacy} />
+      <Route exact path="/accounts" component={Accounts} />
     </Switch>
   );
 };

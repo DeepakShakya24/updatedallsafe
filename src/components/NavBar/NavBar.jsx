@@ -96,7 +96,7 @@ function NavBar() {
                 </li>
 
                 <li className="nav-item">
-                  <a href="!#">
+                  <a href="/accounts">
                     <i className="fa fa-user-circle-o fa-2x mr-5 mt-2 "></i>
                   </a>
                 </li>
