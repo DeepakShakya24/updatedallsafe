@@ -61,9 +61,39 @@ function NavBar() {
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link ml-2" href="#!">
+                  {/* <a className="nav-link ml-2" href="#!">
                     <b style={{ color: "#2463A1" }}>Oneview</b>
-                  </a>
+                  </a> */}
+                  <div class="dropdown-oneview">
+                    <button class="dropbtn-oneview nav-link ml-2">
+                      Oneview
+                    </button>
+                    <div class="dropdown-content-oneview">
+                      <div class="megamenu-heading">
+                        <h2>theAllsafe</h2>
+                      </div>
+                      <div class="row">
+                        <div class="column">
+                          <h3>Category 1</h3>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                        <div class="column">
+                          <h3>Category 2</h3>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                        <div class="column">
+                          <h3>Category 3</h3>
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </div>
