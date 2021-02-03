@@ -211,7 +211,7 @@
   /* background-image: linear-gradient(253deg, #3ba5b4 0, #38ba8a 100%); */
   background: #172337;
   width: 100%;
-  height: 102.3vh;
+  height: 103.2vh;
   position: absolute;
   top: 0;
   z-index: 20;
@@ -220,8 +220,12 @@
 }
 
 .login-content {
-  margin-top: 250px;
+  margin-top: 209px;
   text-align: center;
+}
+.cross-icon {
+  padding: 45px;
+  float: right;
 }
 
 .login-content h1 {

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import facebook from "./res/facebook.svg";
 import googleplus from "./res/google.svg";
 import linkedin from "./res/linkedin.svg";
-//import svg from "./res/login_close (1).svg";
+import svg from "./res/login_close (1).svg";
 function SignIn() {
   return (
     <div>
@@ -55,11 +55,11 @@ function SignIn() {
         </div>
         <div className="col-md-4">
           <section className="login-background">
-            {/* <div className="home-icon" align="right">
+            <div className="cross-icon">
               <a href="/">
                 <img src={svg} alt="" />
               </a>
-            </div> */}
+            </div>
             <div className="col-md-12" align="center">
               <div className="login-content">
                 <h1>New Here?</h1>

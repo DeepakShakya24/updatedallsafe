@@ -2,6 +2,10 @@ import React from "react";
 import "./SignUp.css";
 import Logo from "./res/theAllsafe White All.png";
 import { Link } from "react-router-dom";
+import facebook from "./res/facebook.svg";
+import googleplus from "./res/google.svg";
+import linkedin from "./res/linkedin.svg";
+import svg from "./res/dark_cross.svg";
 function SignUp() {
   return (
     <div>
@@ -10,7 +14,7 @@ function SignUp() {
           <section className="signUp-background">
             <div className="logo">
               <Link to="/" className="navbar-brand">
-                <img alt="logo" src={Logo} width="300px" />
+                <img alt="logo" src={Logo} height="43.25" />
               </Link>
             </div>
             <div className="col-md-12" align="center">
@@ -27,28 +31,27 @@ function SignUp() {
           </section>
         </div>
         <div className="col-md-8">
+          <div className="signUp-cross-icon">
+            <a href="/">
+              <img src={svg} alt="" />
+            </a>
+          </div>
           <div className="col-md-12" align="center">
             <div className="signUp-form">
               <h1>Create Free Account</h1>
               <p>Sign up using social networks</p>
 
-              <ul className="form-login-icons">
-                <li>
-                  <a href="#!" class="icon-Facebook" title="Facebook">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="icon-google" title="Facebook">
-                    <i class="fa fa-google"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" class="icon-linkedin" title="Facebook">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
+              <div className="contact-icons">
+                <a href="#!" class="" title="Facebook">
+                  <img src={facebook} alt="" />
+                </a>
+                <a href="#!" class="" title="Facebook">
+                  <img src={googleplus} alt="" />
+                </a>
+                <a href="#!" class="" title="Facebook">
+                  <img src={linkedin} alt="" />
+                </a>
+              </div>
               <form className="signUp_form">
                 <div className="signUp_form_title">
                   <div className="signUp-title">OR</div>
