@@ -57,7 +57,7 @@
 
 .business-btn {
   padding: 5px 10px;
-  border: 1px solid lightgray;
+  border: 1px solid black;
   border-radius: 0 !important;
   color: black;
   background-color: white;
@@ -148,7 +148,7 @@
   color: black;
 }
 
-.cards {
+.features-cards {
   padding-top: 20px;
   padding-left: 10px;
 }

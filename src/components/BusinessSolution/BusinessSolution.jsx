@@ -55,6 +55,7 @@ function BusinessSolution() {
                       role="tab"
                       aria-controls="t1"
                       aria-selected="true"
+                      style={{ border: "1px solid lightgrey" }}
                     >
                       Basic
                     </a>
@@ -68,6 +69,7 @@ function BusinessSolution() {
                       role="tab"
                       aria-controls="t2"
                       aria-selected="false"
+                      style={{ border: "1px solid lightgrey" }}
                     >
                       Value
                     </a>
@@ -81,6 +83,7 @@ function BusinessSolution() {
                       role="tab"
                       aria-controls="t3"
                       aria-selected="false"
+                      style={{ border: "1px solid lightgrey" }}
                     >
                       Prime
                     </a>
@@ -335,7 +338,7 @@ function BusinessSolution() {
             <div class="row">
               <p
                 style={{
-                  color: "black",
+                  color: "lightgrey",
                   paddingLeft: "40px",
                   paddingRight: "40px",
                   paddingTop: "40px",
@@ -357,7 +360,7 @@ function BusinessSolution() {
                 features below.
               </p>
             </div>
-            <div class="row cards">
+            <div class="row features-cards">
               <div class="card col-md-4">
                 <div class="card-body">
                   <span className="featur">1</span>
@@ -398,7 +401,7 @@ function BusinessSolution() {
                 </div>
               </div>
             </div>
-            <div class="row cards">
+            <div class="row features-cards">
               <div class="card col-md-4">
                 <div class="card-body">
                   <span className="featur">4</span>

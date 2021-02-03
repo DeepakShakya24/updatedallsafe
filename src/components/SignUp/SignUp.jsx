@@ -25,7 +25,11 @@ function SignUp() {
                   <br /> account, just sign in.We've <br />
                   missed you!
                 </p>
-                <button className="signup-form-btn">Sign in</button>
+                <div className="signin-link">
+                  <a href="/signin" className="signin-form-btn">
+                    Sign in
+                  </a>
+                </div>
               </div>
             </div>
           </section>

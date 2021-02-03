@@ -68,7 +68,11 @@ function SignIn() {
                   great amount of new <br />
                   opportunities!
                 </p>
-                <button className="signup-form-btn">Sign up</button>
+                <div className="signup-link">
+                  <a href="/signup" className="signup-form-btn">
+                    Sign up
+                  </a>
+                </div>
               </div>
             </div>
 

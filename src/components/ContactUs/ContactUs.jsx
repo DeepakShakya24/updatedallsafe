@@ -144,7 +144,7 @@ function ContactUs() {
                   </li>
 
                   <li>
-                    <a href="#!" class="icoRss" title="Rss">
+                    <a href="#!" class="icoRss" title="Instagram">
                       <i class="fa fa-instagram"></i>
                     </a>
                   </li>
