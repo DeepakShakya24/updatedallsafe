@@ -65,31 +65,73 @@ function NavBar() {
                     <b style={{ color: "#2463A1" }}>Oneview</b>
                   </a> */}
                   <div class="dropdown-oneview">
-                    <button class="dropbtn-oneview nav-link ml-2">
+                    <button class="dropbtn-oneview nav-link ml-2 oneview">
                       Oneview
                     </button>
                     <div class="dropdown-content-oneview">
                       <div class="megamenu-heading">
-                        <h2>theAllsafe</h2>
+                        <h2 style={{ textAlign: "center" }}>theAllsafe</h2>
                       </div>
                       <div class="row">
                         <div class="column">
-                          <h3>Category 1</h3>
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
+                          <h4>Category 1</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
                         </div>
                         <div class="column">
-                          <h3>Category 2</h3>
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
+                          <h4>Category 2</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
                         </div>
                         <div class="column">
-                          <h3>Category 3</h3>
-                          <a href="#">Link 1</a>
-                          <a href="#">Link 2</a>
-                          <a href="#">Link 3</a>
+                          <h4>Category 3</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
+                        </div>
+                        <div class="column">
+                          <h4>Category 3</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
+                        </div>
+                        <div class="column">
+                          <h4>Category 3</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
+                        </div>
+                        <div class="column" style={{ marginTop: "-4em" }}>
+                          <h4>Category 3</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
+                        </div>
+                        <div class="column" style={{ marginTop: "-4em" }}>
+                          <h4>Category 3</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
+                        </div>
+                        <div class="column" style={{ marginTop: "-4em" }}>
+                          <h4>Category 3</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
+                        </div>
+                        <div class="column" style={{ marginTop: "-4em" }}>
+                          <h4>Category 3</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
+                        </div>
+                        <div class="column" style={{ marginTop: "-4em" }}>
+                          <h4>Category 3</h4>
+                          <a href="#!">Link 1</a>
+                          <a href="#!">Link 2</a>
+                          <a href="#!">Link 3</a>
                         </div>
                       </div>
                     </div>
