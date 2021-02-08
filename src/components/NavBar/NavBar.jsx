@@ -65,73 +65,78 @@ function NavBar() {
                     <b style={{ color: "#2463A1" }}>Oneview</b>
                   </a> */}
                   <div class="dropdown-oneview">
-                    <button class="dropbtn-oneview nav-link ml-2 oneview">
+                    <button class="dropbtn-oneview nav-link ml-2">
                       Oneview
                     </button>
                     <div class="dropdown-content-oneview">
                       <div class="megamenu-heading">
-                        <h2 style={{ textAlign: "center" }}>theAllsafe</h2>
+                        <h4 style={{ textAlign: "center" }}>theAllsafe</h4>
                       </div>
                       <div class="row">
                         <div class="column">
-                          <h4>Category 1</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                          <h6>Category 1</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
                         <div class="column">
-                          <h4>Category 2</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                          <h6>Category 2</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
                         <div class="column">
-                          <h4>Category 3</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                          <h6>Category 3</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
                         <div class="column">
-                          <h4>Category 3</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                          <h6>Category 3</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
                         <div class="column">
-                          <h4>Category 3</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                          <h6>Category 3</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
-                        <div class="column" style={{ marginTop: "-4em" }}>
-                          <h4>Category 3</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                      </div>
+                      <div className="row row-2">
+                        <div class="column">
+                          <h6>Category 3</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
-                        <div class="column" style={{ marginTop: "-4em" }}>
-                          <h4>Category 3</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                        <div class="column">
+                          <h6>Category 3</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
-                        <div class="column" style={{ marginTop: "-4em" }}>
-                          <h4>Category 3</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                        <div class="column">
+                          <h6>Category 3</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
-                        <div class="column" style={{ marginTop: "-4em" }}>
-                          <h4>Category 3</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
-                        </div>
-                        <div class="column" style={{ marginTop: "-4em" }}>
-                          <h4>Category 3</h4>
-                          <a href="#!">Link 1</a>
-                          <a href="#!">Link 2</a>
-                          <a href="#!">Link 3</a>
+                        <div class="column">
+                          <h6>Category 3</h6>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
+                          <a href="#!">lorem ipsum</a>
                         </div>
                       </div>
                     </div>

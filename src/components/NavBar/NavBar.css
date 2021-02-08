@@ -370,14 +370,19 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 }
 .dropdown-content-oneview .row {
   width: auto;
-  padding: 15px;
+  padding: 8px;
 }
+.dropdown-content-oneview .row h6 {
+  color: #428bca;
+}
+
 .column {
   float: left;
   width: auto;
   padding: 20px;
+
   /* background-color: #ccc; */
-  height: 250px;
+  /* height: 250px; */
 }
 
 .column a {
@@ -387,6 +392,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
   text-decoration: none;
   display: block;
   text-align: left;
+  font-size: 15px;
 }
 
 .column a:hover {
