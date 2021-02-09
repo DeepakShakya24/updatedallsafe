@@ -57,7 +57,45 @@ function Footer() {
                   <a href="#!">Payment</a>
                 </li>
                 <li>
-                  <a href="/privacy-policy">Terms & Condition</a>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Terms & Condition
+                    </a>
+                    <div
+                      class="dropdown-menu menu-drop"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <a
+                        class="dropdown-item"
+                        href="#!"
+                        style={{ color: "black" }}
+                      >
+                        Action
+                      </a>
+                      <a
+                        class="dropdown-item"
+                        href="#!"
+                        style={{ color: "black" }}
+                      >
+                        Another action
+                      </a>
+                      <a
+                        class="dropdown-item"
+                        href="#!"
+                        style={{ color: "black" }}
+                      >
+                        Something else here
+                      </a>
+                    </div>
+                  </div>
+                  {/* <a href="/privacy-policy">Terms & Condition</a> */}
                 </li>
               </ul>
             </div>

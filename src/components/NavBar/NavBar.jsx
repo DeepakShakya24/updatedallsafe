@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 import Logo from "./res/theAllsafe Blue All.png";
 function NavBar() {
-  const [newclass, setClass] = useState("fa fa-caret-up");
+  const [newclass, setClass] = useState("fa fa-plus");
   const MouseOver = () => {
-    setClass("fa fa-caret-down");
+    setClass("fa fa-chevron-down");
   };
   const MouseOut = () => {
-    setClass("fa fa-caret-up");
+    setClass("fa fa-plus");
   };
 
   return (
@@ -75,7 +75,10 @@ function NavBar() {
                 >
                   <div class="dropdown-oneview">
                     <button class="dropbtn-oneview nav-link ml-2">
-                      Oneview <i class={newclass}></i>
+                      Oneview{" "}
+                      <span>
+                        <i class={newclass} style={{ fontSize: "0.6rem" }}></i>
+                      </span>
                     </button>
                     <div class="dropdown-content-oneview">
                       {/* <div class="megamenu-heading">

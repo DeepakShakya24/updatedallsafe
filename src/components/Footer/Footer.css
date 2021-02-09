@@ -68,3 +68,7 @@ hr {
 .display-inline {
   display: inline-block;
 }
+.menu-drop {
+  top: -105px;
+  left: 0px;
+}
