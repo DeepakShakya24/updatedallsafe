@@ -60,11 +60,10 @@ function Footer() {
                   <div class="dropdown">
                     <a
                       class="dropdown-toggle"
-                      type="button"
                       id="dropdownMenuButton"
                       data-toggle="dropdown"
-                      aria-haspopup="true"
                       aria-expanded="false"
+                      href="#!"
                     >
                       Terms & Condition
                     </a>
