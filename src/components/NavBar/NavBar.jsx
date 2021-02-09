@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import Logo from "./res/theAllsafe Blue All.png";
 function NavBar() {
+  const [newclass, setClass] = useState("fa fa-caret-up");
+  const MouseOver = () => {
+    setClass("fa fa-caret-down");
+  };
+  const MouseOut = () => {
+    setClass("fa fa-caret-up");
+  };
+
   return (
     <div>
       <header>
@@ -60,18 +68,19 @@ function NavBar() {
                   |
                 </li>
 
-                <li className="nav-item">
-                  {/* <a className="nav-link ml-2" href="#!">
-                    <b style={{ color: "#2463A1" }}>Oneview</b>
-                  </a> */}
+                <li
+                  className="nav-item"
+                  onMouseOver={MouseOver}
+                  onMouseOut={MouseOut}
+                >
                   <div class="dropdown-oneview">
                     <button class="dropbtn-oneview nav-link ml-2">
-                      Oneview
+                      Oneview <i class={newclass}></i>
                     </button>
                     <div class="dropdown-content-oneview">
-                      <div class="megamenu-heading">
+                      {/* <div class="megamenu-heading">
                         <h4 style={{ textAlign: "center" }}>theAllsafe</h4>
-                      </div>
+                      </div> */}
                       <div class="row">
                         <div class="column">
                           <h6>Category 1</h6>

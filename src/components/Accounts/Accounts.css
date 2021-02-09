@@ -2,13 +2,13 @@
   border-radius: 10px;
   text-align: center;
   padding: 10px;
-  width: 80%;
+  width: auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   border-bottom: 8px solid #2463a1;
 }
 .login:hover {
   border: none;
-  border-bottom: 8px solid #ffbe00;
+  border-bottom: 15px solid #ffbe00;
 }
 .login i {
   padding: 20px;

@@ -355,13 +355,13 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
   width: 220%;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
   /* z-index: 1; */
 }
 
 .dropdown-content-oneview .megamenu-heading {
   background: white;
   padding: 16px;
-
   color: black;
 }
 
@@ -370,10 +370,13 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
 }
 .dropdown-content-oneview .row {
   width: auto;
-  padding: 8px;
+  padding: 20px;
 }
 .dropdown-content-oneview .row h6 {
   color: #428bca;
+  border-bottom: 2px solid #428bca;
+  padding-bottom: 3px;
+  width: fit-content;
 }
 
 .column {
@@ -393,6 +396,7 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
   display: block;
   text-align: left;
   font-size: 15px;
+  line-height: 13px;
 }
 
 .column a:hover {

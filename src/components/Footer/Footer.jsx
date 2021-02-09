@@ -57,7 +57,7 @@ function Footer() {
                   <a href="#!">Payment</a>
                 </li>
                 <li>
-                  <a href="#!">Terms & Condition</a>
+                  <a href="/privacy-policy">Terms & Condition</a>
                 </li>
               </ul>
             </div>
