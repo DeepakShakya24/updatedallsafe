@@ -75,9 +75,16 @@ function NavBar() {
                 >
                   <div class="dropdown-oneview">
                     <button class="dropbtn-oneview nav-link ml-2">
-                      Oneview{" "}
+                      Oneview &nbsp;
                       <span>
-                        <i class={newclass} style={{ fontSize: "0.6rem" }}></i>
+                        <i
+                          class={newclass}
+                          style={{
+                            fontSize: "0.6rem",
+                            position: "absolute",
+                            top: "17px",
+                          }}
+                        ></i>
                       </span>
                     </button>
                     <div class="dropdown-content-oneview">

@@ -1,16 +1,17 @@
-import React from "react";
-//import "bootstrap/dist/css/bootstrap.css";
+import React, { useState } from "react";
 import "./Footer.css";
 import Cards from "./res/cards.PNG";
-// import t from "./res/t.PNG";
-// import f from "./res/f.PNG";
-// import i from "./res/i.PNG";
-// import e from "./res/e.PNG";
-// import lg from "./res/websitelogo.png";
-// import OurBrands from "../OurBrands/OurBrands";
+
 import icon from "./res/icon.svg";
 
 function Footer() {
+  const [newclass, setClass] = useState("fa fa-caret-down");
+  const MouseOver = () => {
+    setClass("fa fa-caret-up");
+  };
+  const MouseOut = () => {
+    setClass("fa fa-caret-down");
+  };
   return (
     <div>
       <footer>
@@ -57,16 +58,22 @@ function Footer() {
                   <a href="#!">Payment</a>
                 </li>
                 <li>
-                  <div class="dropdown">
+                  <div
+                    class="dropdown"
+                    onMouseOver={MouseOver}
+                    onMouseOut={MouseOut}
+                  >
                     <a
-                      class="dropdown-toggle"
-                      id="dropdownMenuButton"
-                      data-toggle="dropdown"
+                      class=""
+                      id=""
+                      data-toggle=""
                       aria-expanded="false"
                       href="#!"
                     >
-                      Terms & Condition
+                      Terms & Condition{" "}
+                      <i class={newclass} style={{ color: "white" }}></i>
                     </a>
+
                     <div
                       class="dropdown-menu menu-drop"
                       aria-labelledby="dropdownMenuButton"
