@@ -69,6 +69,9 @@ hr {
   display: inline-block;
 }
 .menu-drop {
-  top: -105px;
+  top: -160px;
   left: 0px;
+}
+.dropdown-item {
+  font-size: 50px;
 }

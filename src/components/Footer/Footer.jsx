@@ -5,12 +5,12 @@ import Cards from "./res/cards.PNG";
 import icon from "./res/icon.svg";
 
 function Footer() {
-  const [newclass, setClass] = useState("fa fa-caret-down");
+  const [newclass, setClass] = useState("fa fa-chevron-right");
   const MouseOver = () => {
-    setClass("fa fa-caret-up");
+    setClass("fa fa-chevron-up");
   };
   const MouseOut = () => {
-    setClass("fa fa-caret-down");
+    setClass("fa fa-chevron-right");
   };
   return (
     <div>
@@ -70,8 +70,11 @@ function Footer() {
                       aria-expanded="false"
                       href="#!"
                     >
-                      Terms & Condition{" "}
-                      <i class={newclass} style={{ color: "white" }}></i>
+                      Terms & Condition &nbsp;
+                      <i
+                        class={newclass}
+                        style={{ color: "white", fontSize: "0.6rem" }}
+                      ></i>
                     </a>
 
                     <div
@@ -81,21 +84,28 @@ function Footer() {
                       <a
                         class="dropdown-item"
                         href="#!"
-                        style={{ color: "black" }}
+                        style={{ color: "black", fontSize: "15px" }}
                       >
                         Action
                       </a>
                       <a
                         class="dropdown-item"
                         href="#!"
-                        style={{ color: "black" }}
+                        style={{ color: "black", fontSize: "15px" }}
                       >
                         Another action
                       </a>
                       <a
                         class="dropdown-item"
                         href="#!"
-                        style={{ color: "black" }}
+                        style={{ color: "black", fontSize: "15px" }}
+                      >
+                        Something else here
+                      </a>
+                      <a
+                        class="dropdown-item"
+                        href="#!"
+                        style={{ color: "black", fontSize: "15px" }}
                       >
                         Something else here
                       </a>
