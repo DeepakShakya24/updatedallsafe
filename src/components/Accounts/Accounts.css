@@ -7,15 +7,24 @@
   border-bottom: 10px solid #6c5ea6;
   background-color: white;
 }
+.login h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: -1px -1px 0 #2463a1, 1px -1px 0 #2463a1, -1px 1px 0 #2463a1,
+    1px 1px 0 #2463a1;
+}
 .login:hover {
   border: none;
-  border-bottom: 15px solid #ffbe00;
+  border-bottom: 10px solid #ffbe00;
 }
 .login:hover i {
   color: #ffbe00;
 }
 .login i {
-  padding: 20px;
+  padding: 10px;
   color: black;
 }
 .login h3 {

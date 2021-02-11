@@ -1,6 +1,7 @@
 import React from "react";
 import "./Accounts.css";
 import NavBar from "../NavBar/NavBar";
+import Tada from "react-reveal/Tada";
 //import Footer from "../Footer/Footer";
 const Accounts = () => {
   return (
@@ -8,30 +9,39 @@ const Accounts = () => {
       <NavBar />
       <div className="accounts">
         <div className="row">
-          <div className="col-md-3">
-            <div className="login">
-              <i className="fa fa-user fa-3x"></i>
-              <h3>School Login</h3>
+          <Tada>
+            <div className="col-md-3">
+              <div className="login">
+                <i className="fa fa-user fa-3x"></i>
+                <h3>School Login</h3>
+              </div>
             </div>
-          </div>
-          <div className="col-md-3">
-            <div className="login">
-              <i className="fa fa-user fa-3x"></i>
-              <h3>User Login</h3>
+          </Tada>
+          <Tada>
+            <div className="col-md-3">
+              <div className="login">
+                <i className="fa fa-user fa-3x"></i>
+                <h3>User Login</h3>
+              </div>
             </div>
-          </div>
-          <div className="col-md-3">
-            <div className="login">
-              <i className="fa fa-user fa-3x"></i>
-              <h3>Instructor Login</h3>
+          </Tada>
+          <Tada>
+            <div className="col-md-3">
+              <div className="login">
+                <i className="fa fa-user fa-3x"></i>
+
+                <h3>Instructor Login</h3>
+              </div>
             </div>
-          </div>
-          <div className="col-md-3">
-            <div className="login">
-              <i className="fa fa-user fa-3x"></i>
-              <h3>Vendor Login</h3>
+          </Tada>
+          <Tada>
+            <div className="col-md-3">
+              <div className="login">
+                <i className="fa fa-user fa-3x"></i>
+                <h3>Vendor Login</h3>
+              </div>
             </div>
-          </div>
+          </Tada>
         </div>
       </div>
       {/* <Footer /> */}
