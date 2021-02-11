@@ -102,13 +102,13 @@ const BlockMenu = () => {
             <div className="col-lg-4 mr-5 mt-2 mb-2">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a href="!#">
+                  <a href="#!">
                     <i className="fa fa-shopping-cart fa-2x mr-5 mt-2"></i>
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a href="!#">
+                  <a href="#!">
                     <i className="fa fa-user-circle-o fa-2x mr-5 mt-2 "></i>
                   </a>
                 </li>
@@ -149,16 +149,16 @@ const BlockMenu = () => {
         {/*    <div className="row" style={{marginTop: 10}}>*/}
 
         {/*      <div className="col-lg-3">*/}
-        {/*        <a href="!#">*/}
+        {/*        <a href="#!">*/}
         {/*          <img alt="logo" src={Logo} width="250"/>*/}
         {/*        </a>*/}
         {/*      </div>*/}
 
         {/*      <div className="col-lg-3">*/}
         {/*        <div style={{marginTop: "1em"}}>*/}
-        {/*          <a href="!#"><label style={{marginRight: "2.5em"}}>Business</label></a>*/}
-        {/*          <a href="!#"><label style={{marginRight: "2.5em"}}>Applications</label></a>*/}
-        {/*          <a href="!#"><label>Oneview</label></a>*/}
+        {/*          <a href="#!"><label style={{marginRight: "2.5em"}}>Business</label></a>*/}
+        {/*          <a href="#!"><label style={{marginRight: "2.5em"}}>Applications</label></a>*/}
+        {/*          <a href="#!"><label>Oneview</label></a>*/}
         {/*        </div>*/}
         {/*      </div>*/}
 
@@ -180,18 +180,18 @@ const BlockMenu = () => {
         {/*    <div className="logo_menu" style={{marginTop: "0.25em"}}>*/}
         {/*      <ul style={{float:'right'}}>*/}
         {/*        <li>*/}
-        {/*          <a href="!#">*/}
+        {/*          <a href="#!">*/}
         {/*            <img alt="cart" src={cart}/>*/}
         {/*          </a>*/}
         {/*        </li>*/}
 
         {/*        <li>*/}
-        {/*          <a href="!#">*/}
+        {/*          <a href="#!">*/}
         {/*            <img alt="account" src={myaccount}/>*/}
         {/*          </a>*/}
         {/*        </li>*/}
         {/*        <li>*/}
-        {/*          <a href="!#">*/}
+        {/*          <a href="#!">*/}
         {/*            Contact Us*/}
         {/*          </a>*/}
         {/*        </li>*/}
@@ -207,7 +207,7 @@ const BlockMenu = () => {
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-4 ">
-                <a href="!#">
+                <a href="#!">
                   <img alt="" src={Logo} width="200" />
                 </a>
               </div>
@@ -226,13 +226,13 @@ const BlockMenu = () => {
                 <div class="logo_menu">
                   <ul>
                     <li>
-                      <a href="!#">
+                      <a href="#!">
                         <img alt="" src={oneview} />
                         Oneview
                       </a>
                     </li>
                     <li>
-                      <a href="!#">
+                      <a href="#!">
                         <img
                           alt=""
                           src={ssl}
@@ -246,13 +246,13 @@ const BlockMenu = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="!#">
+                      <a href="#!">
                         <img alt="" src={cart} />
                         Cart
                       </a>
                     </li>
                     <li>
-                      <a href="!#">
+                      <a href="#!">
                         <img alt="" src={myaccount} />
                         My Account
                       </a>
@@ -291,8 +291,8 @@ const BlockMenu = () => {
                     className="nav-link dropdown-toggle"
                     to="/businessSolution"
                     id="navbarDropdown2"
-                    role="button"
-                    data-toggle="dropdown"
+                    // role="button"
+
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -303,7 +303,7 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Inventory Management
@@ -311,7 +311,7 @@ const BlockMenu = () => {
 
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       POS System
@@ -321,48 +321,44 @@ const BlockMenu = () => {
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
                   >
                     <img alt="" src={icon2} class="img-fluid" />
                     E-Commerce
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <div class="dropdown-menu">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Single Vendor
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Multi Vendor
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Grocery Store - Single Vendor
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Grocery Store - Multi Vendor
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Flower and Gifts
@@ -372,10 +368,9 @@ const BlockMenu = () => {
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
                     role="button"
-                    data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -385,28 +380,28 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       School Management System
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Library Management System
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Learning Management System
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       E-Class Sharing Portal
@@ -417,10 +412,9 @@ const BlockMenu = () => {
                   <span class="new-info">Up to 30% off</span>
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
                     role="button"
-                    data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -430,21 +424,21 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Hospital Management System
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Pharma
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       POS Chemist
@@ -454,10 +448,9 @@ const BlockMenu = () => {
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
                     role="button"
-                    data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -468,14 +461,14 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Job Portal
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       HR Management System
@@ -485,10 +478,9 @@ const BlockMenu = () => {
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
                     role="button"
-                    data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -498,21 +490,21 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       News Portal
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Blog Portal
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Sarkari Job Portal
@@ -522,10 +514,9 @@ const BlockMenu = () => {
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
                     role="button"
-                    data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -536,14 +527,14 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Cab Booking
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Bus Booking
@@ -553,10 +544,9 @@ const BlockMenu = () => {
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
                     role="button"
-                    data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -567,14 +557,14 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Hotel Booking
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Booking Integration
@@ -584,10 +574,9 @@ const BlockMenu = () => {
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
                     role="button"
-                    data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -597,14 +586,14 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Multi Video Platform
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       Like TVideo
@@ -616,10 +605,9 @@ const BlockMenu = () => {
                   <span class="new-info">New</span>
                   <a
                     class="nav-link dropdown-toggle"
-                    href="!#"
+                    href="#!"
                     id="navbarDropdown2"
                     role="button"
-                    data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
@@ -629,14 +617,14 @@ const BlockMenu = () => {
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       page 1
                     </a>
                     <a
                       class="dropdown-item"
-                      href="!#"
+                      href="#!"
                       style={{ textAlign: "left" }}
                     >
                       page 1
@@ -659,8 +647,8 @@ const BlockMenu = () => {
     //     <strong>{title}</strong>
     //   </button>
     //   <div className="dropdown-content">
-    //     <a href="!#">Page 1</a>
-    //     <a href="!#">Page 2</a>
+    //     <a href="#!">Page 1</a>
+    //     <a href="#!">Page 2</a>
     //   </div>
     // </div> */}
   );

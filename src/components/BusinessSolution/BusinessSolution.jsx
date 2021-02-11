@@ -10,15 +10,16 @@ import NavBar from "../NavBar/NavBar";
 
 function BusinessSolution() {
   return (
-    <div className="newBusiness">
+    <>
       <NavBar />
-
       <section className="business-solution">
         <div className="row">
-          <div className="col-md-12 heading mb-5" align="center">
-            <h2>
-              Business <span className="ship">Solutions</span>
-            </h2>
+          <div className="col-md-12" align="center">
+            <div className="heading">
+              <h2>
+                Business <span className="ship">Solutions</span>
+              </h2>
+            </div>
           </div>
         </div>
         <div className="row">
@@ -338,7 +339,7 @@ function BusinessSolution() {
             <div class="row">
               <p
                 style={{
-                  color: "lightgrey",
+                  color: "black",
                   paddingLeft: "40px",
                   paddingRight: "40px",
                   paddingTop: "40px",
@@ -705,7 +706,7 @@ function BusinessSolution() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 export default BusinessSolution;

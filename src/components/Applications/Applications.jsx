@@ -100,7 +100,7 @@ function Applications() {
         </div>
       </section>
 
-      <section className="features">
+      <section className="applications-features">
         <div className="feature-box-left">
           <span>FEATURES</span>
           <img src={group1} alt="" />
