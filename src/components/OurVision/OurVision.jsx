@@ -18,77 +18,86 @@ import android from "../OurOfferings/res/android.png";
 // import ai from "../OurOfferings/res/ai-service.png";
 // import maintain from "../OurOfferings/res/maintain.png";
 // import uiux from "../OurOfferings/res/uiux.png";
+import Fade from "react-reveal/Fade";
+import Tada from "react-reveal/Tada";
 
 export default function OurVision() {
   return (
     <section className="myvision">
       <div class="heading">
-        <h2>
-          {/* <div class="circle pulse"></div> */}
-          WHY <span className="ship">theAllsafe ?</span>
-        </h2>
+        <Fade top>
+          <h2>
+            WHY <span className="ship">theAllsafe ?</span>
+          </h2>
+        </Fade>
       </div>
       <div class="about-home">
         <div class="container">
           <div className="row" style={{ marginTop: "-5em" }}>
-            <div className="col-md-3">
-              <div className="service-home-box">
-                <h4 align={"center"}>
-                  Our Vision
-                  <hr />
-                </h4>
+            <Tada>
+              <div className="col-md-3">
+                <div className="service-home-box">
+                  <h4 align={"center"}>
+                    Our Vision
+                    <hr />
+                  </h4>
 
-                <img
-                  src={webdev}
-                  alt="web app development company Spain and Poland"
-                />
+                  <img
+                    src={webdev}
+                    alt="web app development company Spain and Poland"
+                  />
+                </div>
               </div>
-            </div>
+            </Tada>
 
-            <div className="col-md-3">
-              <div className="service-home-box">
-                <h4 align={"center"}>
-                  Our Mission
-                  <hr />
-                </h4>
+            <Tada>
+              <div className="col-md-3">
+                <div className="service-home-box">
+                  <h4 align={"center"}>
+                    Our Mission
+                    <hr />
+                  </h4>
 
-                <img
-                  src={android}
-                  alt="Nimble AppGenie - Mobile app development services Germany and Texas"
-                />
+                  <img
+                    src={android}
+                    alt="Nimble AppGenie - Mobile app development services Germany and Texas"
+                  />
+                </div>
               </div>
-            </div>
+            </Tada>
 
             <div className="col-md-6">
-              <p
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "200",
-                  lineHeight: "27px",
-                  color: "var(--gray-dark-color);",
-                }}
-              >
-                We believe in providing smart and innovative mobile and web
-                solutions that will help businesses to solve the problems of
-                their customers. We not only build the software, but we
-                strategically analyse the project, to identify how each business
-                can maximise the value it offers to their customers.
-              </p>
+              <Fade right>
+                <p
+                  style={{
+                    fontSize: "15px",
+                    fontWeight: "200",
+                    lineHeight: "27px",
+                    color: "var(--gray-dark-color);",
+                  }}
+                >
+                  We believe in providing smart and innovative mobile and web
+                  solutions that will help businesses to solve the problems of
+                  their customers. We not only build the software, but we
+                  strategically analyse the project, to identify how each
+                  business can maximise the value it offers to their customers.
+                </p>
 
-              <p
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "200",
-                  lineHeight: "27px",
-                  color: "var(--gray-dark-color);",
-                }}
-              >
-                We believe in providing smart and innovative mobile and web
-                solutions that will help businesses to solve the problems of
-                their customers. We not only build the software, but we
-                strategically analyse the project, to identify how each business
-                can maximise the value it offers to their customers.
-              </p>
+                <p
+                  style={{
+                    fontSize: "15px",
+                    fontWeight: "200",
+                    lineHeight: "27px",
+                    color: "var(--gray-dark-color);",
+                  }}
+                >
+                  We believe in providing smart and innovative mobile and web
+                  solutions that will help businesses to solve the problems of
+                  their customers. We not only build the software, but we
+                  strategically analyse the project, to identify how each
+                  business can maximise the value it offers to their customers.
+                </p>
+              </Fade>
             </div>
           </div>
         </div>

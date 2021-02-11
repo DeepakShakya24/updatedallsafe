@@ -6,47 +6,52 @@ import ios from "./res/ios.png";
 import maintain from "./res/maintain.png";
 import uiux from "./res/uiux.png";
 import webdev from "./res/web-development.png";
+import Fade from "react-reveal/Fade";
 function OurOfferings() {
   return (
     <section class="service-home">
       <hr style={{ marginTop: "-3rem", marginBottom: "3rem" }} />
       <div class="container">
         <div class="container heading">
-          <h2>
-            OUR <span className="ship">OFFERINGS</span>
-          </h2>
+          <Fade top>
+            <h2>
+              OUR <span className="ship">OFFERINGS</span>
+            </h2>
+          </Fade>
         </div>
         <div class="row" style={{ marginTop: "2em" }}>
           <div className="col-md-6">
-            <p
-              style={{
-                fontSize: "15px",
-                fontWeight: "200",
-                lineHeight: "27px",
-                color: "var(--gray-dark-color);",
-              }}
-            >
-              We believe in providing smart and innovative mobile and web
-              solutions that will help businesses to solve the problems of their
-              customers. We not only build the software, but we strategically
-              analyse the project, to identify how each business can maximise
-              the value it offers to their customers.
-            </p>
+            <Fade left>
+              <p
+                style={{
+                  fontSize: "15px",
+                  fontWeight: "200",
+                  lineHeight: "27px",
+                  color: "var(--gray-dark-color);",
+                }}
+              >
+                We believe in providing smart and innovative mobile and web
+                solutions that will help businesses to solve the problems of
+                their customers. We not only build the software, but we
+                strategically analyse the project, to identify how each business
+                can maximise the value it offers to their customers.
+              </p>
 
-            <p
-              style={{
-                fontSize: "15px",
-                fontWeight: "200",
-                lineHeight: "27px",
-                color: "var(--gray-dark-color);",
-              }}
-            >
-              We believe in providing smart and innovative mobile and web
-              solutions that will help businesses to solve the problems of their
-              customers. We not only build the software, but we strategically
-              analyse the project, to identify how each business can maximise
-              the value it offers to their customers.
-            </p>
+              <p
+                style={{
+                  fontSize: "15px",
+                  fontWeight: "200",
+                  lineHeight: "27px",
+                  color: "var(--gray-dark-color);",
+                }}
+              >
+                We believe in providing smart and innovative mobile and web
+                solutions that will help businesses to solve the problems of
+                their customers. We not only build the software, but we
+                strategically analyse the project, to identify how each business
+                can maximise the value it offers to their customers.
+              </p>
+            </Fade>
           </div>
 
           <div class="col-md-3">

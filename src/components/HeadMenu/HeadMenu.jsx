@@ -2,28 +2,21 @@ import React from "react";
 import "./HeadMenu.css";
 import { Link } from "react-router-dom";
 const HeadMenu = () => {
-  // const [active, setactive] = useState(false);
-  // const [clctnactive, setclctnactive] = useState(false);
-  // const clickbtn = () => {
-  //   let currentState = active;
-  //   setactive(!currentState);
-  //   setclctnactive(false);
-  // };
-  // const clctnbtn = () => {
-  //   setclctnactive(true);
-  //   setactive(false);
-  // };
+  // const [product, setproduct] = useState("borderBottom: 2px solid #f8c73d");
+  // const [collection, setcollection] = useState(null);
+
+  // const clickProduct = () => {
+  //   setproduct("borderBottom: 2px solid #f8c73d");
+  //   setcollection
+  // }
+
   return (
     <section class="head_menu">
       <div class="row">
         <div class="col-md-12 text-center">
           <ul>
             <li>
-              <Link
-                // activeStyle={{ borderBottom: "2px solid #f8c73d" }}
-                to="/"
-                className="active-link"
-              >
+              <Link to="/" className="active-link">
                 PRODUCT
               </Link>
             </li>
