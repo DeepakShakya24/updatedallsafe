@@ -16,7 +16,7 @@ import icon7 from "./icon/Online Reservation.png";
 import icon8 from "./icon/Hotel and Resturant.png";
 import icon9 from "./icon/OTT Platform.png";
 import icon10 from "./icon/Others.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import contact from "./icon/Contact Us.png";
 //import TopHeader from "../TopHeader/TopHeader";
 const BlockMenu = () => {
@@ -287,19 +287,15 @@ const BlockMenu = () => {
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <span class="new-info ">₹999/mo onwards</span>
-                  <Link
+                  <a
                     className="nav-link dropdown-toggle"
-                    to="/businessSolution"
+                    href="/businessSolution"
                     id="navbarDropdown2"
-                    // role="button"
-
-                    aria-haspopup="true"
-                    aria-expanded="false"
                   >
                     <img alt="" src={Business} class="img-fluid" />
                     Business <br />
                     Solution
-                  </Link>
+                  </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                     <a
                       class="dropdown-item"
