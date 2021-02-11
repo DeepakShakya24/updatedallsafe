@@ -15,7 +15,6 @@ function Collections() {
       <div className="menu-head" align="center">
         <HeadMenu />
       </div>
-
       <section class="p_main_sec">
         <div class="container-fluid">
           <div class="row">
