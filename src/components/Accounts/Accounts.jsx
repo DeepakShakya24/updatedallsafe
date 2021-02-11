@@ -1,7 +1,7 @@
 import React from "react";
 import "./Accounts.css";
 import NavBar from "../NavBar/NavBar";
-import Tada from "react-reveal/Tada";
+import Zoom from "react-reveal/Zoom";
 //import Footer from "../Footer/Footer";
 const Accounts = () => {
   return (
@@ -9,23 +9,23 @@ const Accounts = () => {
       <NavBar />
       <div className="accounts">
         <div className="row">
-          <Tada>
+          <Zoom top>
             <div className="col-md-3">
               <div className="login">
                 <i className="fa fa-user fa-3x"></i>
                 <h3>School Login</h3>
               </div>
             </div>
-          </Tada>
-          <Tada>
+          </Zoom>
+          <Zoom top>
             <div className="col-md-3">
               <div className="login">
                 <i className="fa fa-user fa-3x"></i>
                 <h3>User Login</h3>
               </div>
             </div>
-          </Tada>
-          <Tada>
+          </Zoom>
+          <Zoom top>
             <div className="col-md-3">
               <div className="login">
                 <i className="fa fa-user fa-3x"></i>
@@ -33,15 +33,15 @@ const Accounts = () => {
                 <h3>Instructor Login</h3>
               </div>
             </div>
-          </Tada>
-          <Tada>
+          </Zoom>
+          <Zoom top>
             <div className="col-md-3">
               <div className="login">
                 <i className="fa fa-user fa-3x"></i>
                 <h3>Vendor Login</h3>
               </div>
             </div>
-          </Tada>
+          </Zoom>
         </div>
       </div>
       {/* <Footer /> */}

@@ -198,7 +198,7 @@ function NavBar() {
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="/contactus">
+                  <a href="/contactus" className="nav-link">
                     <p
                       className=""
                       style={{
