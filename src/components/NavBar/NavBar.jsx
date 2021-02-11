@@ -22,14 +22,14 @@ function NavBar() {
           }}
         >
           <div className="col-lg-3 mt-2 mb-2">
-            <Link to="/" className="navbar-brand">
+            <a href="/" className="navbar-brand">
               <img
                 alt="logo"
                 src={Logo}
                 width="auto"
                 style={{ height: "40px" }}
               />
-            </Link>
+            </a>
           </div>
           <button
             className="navbar-toggler"
@@ -198,7 +198,7 @@ function NavBar() {
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contactus">
+                  <a className="nav-link" href="/contactus">
                     <p
                       className=""
                       style={{
@@ -208,7 +208,7 @@ function NavBar() {
                     >
                       Contact Us
                     </p>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
