@@ -28,11 +28,3 @@
   /* color: #333333; */
   font-weight: 560;
 }
-
-.head_menu ul .active-link:active {
-  border-bottom: 2px solid #f8c73d;
-}
-
-.head_menu ul .active-link:visited {
-  border-bottom: 2px solid #f8c73d;
-}

@@ -5,15 +5,42 @@ import Logo1 from "./res/theAllsafe Blue All.png";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import svg from "./res/login_close (1).svg";
+import axios from "axios";
 // import NavBar from "../NavBar/NavBar";
 //import Particle from "react-particles-js";
 function ContactUs() {
+  // const [fullname, setFullname] = useState(null)
+  // const [email, setemail] = useState(null);
+  // const [phonenumber, setphonenumber] = useState(null);
+  // const [textarea, settextarea] = useState(null);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const fullname = e.target.elements.fullname.value;
+    const email = e.target.elements.email.value;
+    const phonenumber = e.target.elements.phonenumber.value;
+    const textarea = e.target.elements.textarea.value;
+    console.log(fullname, email, phonenumber, textarea);
+    axios
+      .post(
+        "https://sheet.best/api/sheets/89643199-b39a-4f9f-bb2a-8b86890e1773",
+        {
+          fullname: fullname,
+          email: email,
+          phonenumber: phonenumber,
+          textarea: textarea,
+        }
+      )
+      .then((response) => console.log(response.data))
+      .catch((error) => {
+        <h1>{error}</h1>;
+      });
+  };
   return (
     <>
       <section class="contact-sec">
-        <Fade top>
-          {/* <img src={Logo1} alt="" width="300px" className="contact-icon" /> */}
-          <div className="row">
+        {/* <img src={Logo1} alt="" width="300px" className="contact-icon" /> */}
+        <div className="row">
+          <Fade left>
             <div className="col-md-8 left">
               <div className="contact-icon">
                 <Link to="/">
@@ -23,7 +50,7 @@ function ContactUs() {
               <h2 style={{ textAlign: "center" }}>
                 <span>CONTACT</span> <span className="ship">US</span>
               </h2>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="fields">
                   <div className="container-fluid">
                     <div className="row">
@@ -35,7 +62,7 @@ function ContactUs() {
                         <br />
                         <input
                           type="text"
-                          name=""
+                          name="fullname"
                           id=""
                           className="firstfield"
                         />
@@ -47,8 +74,8 @@ function ContactUs() {
                         </label>
                         <br />
                         <input
-                          type="text"
-                          name=""
+                          type="email"
+                          name="email"
                           id=""
                           className="firstfield"
                         />
@@ -61,7 +88,7 @@ function ContactUs() {
                         <br />
                         <input
                           type="text"
-                          name=""
+                          name="phonenumber"
                           id=""
                           className="firstfield"
                         />
@@ -73,8 +100,8 @@ function ContactUs() {
                         </label>
                         <br />
                         <input
-                          type="text-area"
-                          name=""
+                          type="text"
+                          name="textarea"
                           id=""
                           className="firstfield"
                         />
@@ -83,16 +110,18 @@ function ContactUs() {
                   </div>
                 </div>
                 <div className="submit-btn">
-                  <a
-                    href="#!"
+                  <button
+                    type="submit"
                     class="btn c_btn_right"
                     style={{ marginTop: "2em" }}
                   >
                     Submit <i className="fa fa-check-circle-o"></i>
-                  </a>
+                  </button>
                 </div>
               </form>
             </div>
+          </Fade>
+          <Fade right>
             <div className="col-md-4 right">
               <div className="contactheading">
                 {/* <Link to="/" className="navbar-brand">
@@ -151,8 +180,8 @@ function ContactUs() {
                 </ul>
               </div>
             </div>
-          </div>
-        </Fade>
+          </Fade>
+        </div>
       </section>
     </>
   );
