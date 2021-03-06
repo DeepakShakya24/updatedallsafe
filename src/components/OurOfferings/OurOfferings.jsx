@@ -54,7 +54,7 @@ function OurOfferings() {
               </p>
             </Fade>
           </div>
-          <Tada>
+          <Fade right>
             <div class="col-md-3">
               <a href="/webdevelopment" style={{ textDecoration: "none" }}>
                 <div class="service-home-box">
@@ -72,8 +72,7 @@ function OurOfferings() {
                 </div>
               </a>
             </div>
-          </Tada>
-          <Tada>
+
             <div class="col-md-3">
               <a href="/android-development" style={{ textDecoration: "none" }}>
                 <div class="service-home-box">
@@ -91,8 +90,8 @@ function OurOfferings() {
                 </div>
               </a>
             </div>
-          </Tada>
-          <Tada>
+          </Fade>
+          <Fade left>
             <div class="col-md-3">
               <a href="/ios-development" style={{ textDecoration: "none" }}>
                 <div class="service-home-box">
@@ -110,8 +109,7 @@ function OurOfferings() {
                 </div>
               </a>
             </div>
-          </Tada>
-          <Tada>
+
             <div class="col-md-3">
               <a
                 href="/artificial-intelligence"
@@ -132,8 +130,8 @@ function OurOfferings() {
                 </div>
               </a>
             </div>
-          </Tada>
-          <Tada>
+          </Fade>
+          <Fade left>
             <div class="col-md-3">
               <a
                 href="/maintainance-and-support"
@@ -151,8 +149,7 @@ function OurOfferings() {
                 </div>
               </a>
             </div>
-          </Tada>
-          <Tada>
+
             <div class="col-md-3">
               <a href="/ui-design" style={{ textDecoration: "none" }}>
                 <div class="service-home-box">
@@ -170,7 +167,7 @@ function OurOfferings() {
                 </div>
               </a>
             </div>
-          </Tada>
+          </Fade>
         </div>
       </div>
     </section>
