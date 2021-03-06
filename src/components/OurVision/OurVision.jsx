@@ -19,7 +19,7 @@ import android from "../OurOfferings/res/android.png";
 // import maintain from "../OurOfferings/res/maintain.png";
 // import uiux from "../OurOfferings/res/uiux.png";
 import Fade from "react-reveal/Fade";
-import Tada from "react-reveal/Tada";
+// import Tada from "react-reveal/Tada";
 
 export default function OurVision() {
   return (

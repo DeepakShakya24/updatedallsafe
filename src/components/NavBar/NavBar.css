@@ -124,7 +124,9 @@ header .navbar-dark .navbar-nav a:hover {
   padding-left: 0;
   padding-right: 0;
 }
-
+.nav-a:hover {
+  text-decoration: none;
+}
 .navbar-expand-md .navbar-nav .nav-link img {
   display: flex;
   margin: 0 auto;
@@ -373,8 +375,8 @@ Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
   padding: 20px;
 }
 .dropdown-content-oneview .row h6 {
-  color: #428bca;
-  border-bottom: 2px solid #428bca;
+  color: #2463a1;
+  border-bottom: 2px solid #2463a1;
   padding-bottom: 3px;
   width: fit-content;
 }

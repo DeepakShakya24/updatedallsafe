@@ -9,11 +9,11 @@ const Accounts = () => {
   const [clientStyle, setclientStyle] = useState(null);
   const [corporateStyle, setcorporateStyle] = useState(null);
   const changeclientStyle = () => {
-    setclientStyle({ boxShadow: "0 0 30px rgb(36, 99, 161)" });
+    setclientStyle({ boxShadow: "0 0 20px #346a9f" });
     setcorporateStyle(null);
   };
   const changecorporatetStyle = () => {
-    setcorporateStyle({ boxShadow: "0 0 30px rgb(36, 99, 161)" });
+    setcorporateStyle({ boxShadow: "0 0 20px #346a9f" });
     setclientStyle(null);
   };
   const schoolClick = () => {

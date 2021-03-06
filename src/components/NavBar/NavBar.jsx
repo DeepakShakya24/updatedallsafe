@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "./NavBar.css";
 import Logo from "./res/theAllsafe Blue All.png";
 function NavBar() {
@@ -47,23 +46,23 @@ function NavBar() {
             <div className="col-lg-4 mt-2 mb-2">
               <ul className="navbar-nav">
                 <li className="nav-item ">
-                  <Link className="nav-link" to="/business">
+                  <a className="nav-a" href="/business">
                     <b style={{ color: "#2463A1" }}>Business</b>{" "}
-                  </Link>
+                  </a>
                 </li>
 
-                <li style={{ color: "#FFBC00" }} className="mt-2 ml-2">
+                <li style={{ color: "#FFBC00" }} className="ml-2">
                   {" "}
                   |
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link ml-2" to="/applications">
+                  <a className="nav-a ml-2 mt-2" href="/applications">
                     <b style={{ color: "#2463A1" }}>Applications</b>
-                  </Link>
+                  </a>
                 </li>
 
-                <li style={{ color: "#FFBC00" }} className="mt-2">
+                <li style={{ color: "#FFBC00" }} className="ml-2">
                   {" "}
                   |
                 </li>
@@ -74,15 +73,15 @@ function NavBar() {
                   onMouseOut={MouseOut}
                 >
                   <div class="dropdown-oneview">
-                    <button class="dropbtn-oneview nav-link ml-2">
-                      Oneview &nbsp;
+                    <button class="dropbtn-oneview nav-a ml-2">
+                      <b>Oneview</b> &nbsp;
                       <span>
                         <i
                           class={newclass}
                           style={{
                             fontSize: "0.6rem",
-                            position: "absolute",
-                            top: "17px",
+                            position: "fixed",
+                            top: "31px",
                           }}
                         ></i>
                       </span>
@@ -198,7 +197,7 @@ function NavBar() {
                 </li>
 
                 <li className="nav-item">
-                  <a href="/contactus" className="nav-link">
+                  <a href="/contactus" className="nav-a">
                     <p
                       className=""
                       style={{
