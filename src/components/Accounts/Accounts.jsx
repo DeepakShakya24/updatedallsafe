@@ -120,7 +120,7 @@ const Accounts = () => {
                           <i class="fa fa-phone"></i>
 
                           <input
-                            type="number"
+                            type="text"
                             class="form-control accounts-form"
                             placeholder="Mobile Number"
                             id="exampleInputEmail1"
@@ -143,7 +143,6 @@ const Accounts = () => {
             </div>
           )}
           {isVendor && (
-           
             <div className="col-md-8">
               <div className="accounts-content" style={{ marginTop: "40px" }}>
                 <div className="heading">

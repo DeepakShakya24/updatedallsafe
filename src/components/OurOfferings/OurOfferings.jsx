@@ -7,7 +7,8 @@ import maintain from "./res/maintain.png";
 import uiux from "./res/uiux.png";
 import webdev from "./res/web-development.png";
 import Fade from "react-reveal/Fade";
-import Tada from "react-reveal/Tada";
+//import Tada from "react-reveal/Tada";
+
 function OurOfferings() {
   return (
     <section class="service-home">
@@ -54,120 +55,117 @@ function OurOfferings() {
               </p>
             </Fade>
           </div>
-          <Fade right>
-            <div class="col-md-3">
-              <a href="/webdevelopment" style={{ textDecoration: "none" }}>
-                <div class="service-home-box">
-                  <h4>
-                    Web <br />
-                    Development
-                  </h4>
-                  <a href="/webdevelopment" class="">
-                    <i class="fa fa-plus"></i>
-                  </a>
-                  <img
-                    src={webdev}
-                    alt="web app development company Spain and Poland"
-                  />
-                </div>
-              </a>
-            </div>
 
-            <div class="col-md-3">
-              <a href="/android-development" style={{ textDecoration: "none" }}>
-                <div class="service-home-box">
-                  <h4>
-                    Android App <br />
-                    Development
-                  </h4>
-                  <a href="/android-development" class="">
-                    <i class="fa fa-plus"></i>
-                  </a>
-                  <img
-                    src={android}
-                    alt="Nimble AppGenie - Mobile app development services Germany and Texas"
-                  />
-                </div>
-              </a>
-            </div>
-          </Fade>
-          <Fade left>
-            <div class="col-md-3">
-              <a href="/ios-development" style={{ textDecoration: "none" }}>
-                <div class="service-home-box">
-                  <h4>
-                    iOS App <br />
-                    Development
-                  </h4>
-                  <a href="/ios-development" class="">
-                    <i class="fa fa-plus"></i>
-                  </a>
-                  <img
-                    src={ios}
-                    alt="Top Graphic Designers in Houston and Germany"
-                  />
-                </div>
-              </a>
-            </div>
+          <div class="col-md-3">
+            <a href="/webdevelopment" style={{ textDecoration: "none" }}>
+              <div class="service-home-box">
+                <h4>
+                  Web <br />
+                  Development
+                </h4>
+                <a href="/webdevelopment" class="">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img
+                  src={webdev}
+                  alt="web app development company Spain and Poland"
+                />
+              </div>
+            </a>
+          </div>
 
-            <div class="col-md-3">
-              <a
-                href="/artificial-intelligence"
-                style={{ textDecoration: "none" }}
-              >
-                <div class="service-home-box">
-                  <h4>
-                    Artificial <br />
-                    Intelligence
-                  </h4>
-                  <a href="/artificial-intelligence">
-                    <i class="fa fa-plus"></i>
-                  </a>
-                  <img
-                    src={ai}
-                    alt="Nimble AppGenie - Mobile app development services Germany and Texas"
-                  />
-                </div>
-              </a>
-            </div>
-          </Fade>
-          <Fade left>
-            <div class="col-md-3">
-              <a
-                href="/maintainance-and-support"
-                style={{ textDecoration: "none" }}
-              >
-                <div class="service-home-box">
-                  <h4>
-                    Maintenance and <br />
-                    Support
-                  </h4>
-                  <a href="#!" class="">
-                    <i class="fa fa-plus"></i>
-                  </a>
-                  <img src={maintain} alt="Top Web Designers in Houston" />
-                </div>
-              </a>
-            </div>
+          <div class="col-md-3">
+            <a href="/android-development" style={{ textDecoration: "none" }}>
+              <div class="service-home-box">
+                <h4>
+                  Android App <br />
+                  Development
+                </h4>
+                <a href="/android-development" class="">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img
+                  src={android}
+                  alt="Nimble AppGenie - Mobile app development services Germany and Texas"
+                />
+              </div>
+            </a>
+          </div>
 
-            <div class="col-md-3">
-              <a href="/ui-design" style={{ textDecoration: "none" }}>
-                <div class="service-home-box">
-                  <h4>
-                    UI/UX
-                    <br /> Design
-                  </h4>
-                  <a href="#!" class="">
-                    <i class="fa fa-plus"></i>
-                  </a>
-                  <img
-                    src={uiux}
-                    alt="Top Creative Agencies in London and Denmark"
-                  />
-                </div>
-              </a>
-            </div>
-          </Fade>
+          <div class="col-md-3">
+            <a href="/ios-development" style={{ textDecoration: "none" }}>
+              <div class="service-home-box">
+                <h4>
+                  iOS App <br />
+                  Development
+                </h4>
+                <a href="/ios-development" class="">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img
+                  src={ios}
+                  alt="Top Graphic Designers in Houston and Germany"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a
+              href="/artificial-intelligence"
+              style={{ textDecoration: "none" }}
+            >
+              <div class="service-home-box">
+                <h4>
+                  Artificial <br />
+                  Intelligence
+                </h4>
+                <a href="/artificial-intelligence">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img
+                  src={ai}
+                  alt="Nimble AppGenie - Mobile app development services Germany and Texas"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a
+              href="/maintainance-and-support"
+              style={{ textDecoration: "none" }}
+            >
+              <div class="service-home-box">
+                <h4>
+                  Maintenance and <br />
+                  Support
+                </h4>
+                <a href="#!" class="">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img src={maintain} alt="Top Web Designers in Houston" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="/ui-design" style={{ textDecoration: "none" }}>
+              <div class="service-home-box">
+                <h4>
+                  UI/UX
+                  <br /> Design
+                </h4>
+                <a href="#!" class="">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <img
+                  src={uiux}
+                  alt="Top Creative Agencies in London and Denmark"
+                />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>

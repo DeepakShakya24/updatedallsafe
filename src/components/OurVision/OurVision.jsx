@@ -34,7 +34,7 @@ export default function OurVision() {
       <div class="about-home">
         <div class="container">
           <div className="row" style={{ marginTop: "-5em" }}>
-            <Tada>
+            <Fade left>
               <div className="col-md-3">
                 <div className="service-home-box">
                   <h4 align={"center"}>
@@ -48,9 +48,9 @@ export default function OurVision() {
                   />
                 </div>
               </div>
-            </Tada>
+            </Fade>
 
-            <Tada>
+            <Fade left>
               <div className="col-md-3">
                 <div className="service-home-box">
                   <h4 align={"center"}>
@@ -64,7 +64,7 @@ export default function OurVision() {
                   />
                 </div>
               </div>
-            </Tada>
+            </Fade>
 
             <div className="col-md-6">
               <Fade right>
