@@ -18,6 +18,7 @@ import UI from "./components/UIdesign/UI";
 import corporateOutsourcing from "./components/CorporateOutsourcing/corporateOutsourcing";
 import privacy from "./components/Privacypolicy/privacy";
 import Accounts from "./components/Accounts/Accounts";
+import Logins from "./components/Logins/Logins";
 
 const BaseRoute = () => {
   return (
@@ -44,6 +45,7 @@ const BaseRoute = () => {
       />
       <Route exact path="/privacy-policy" component={privacy} />
       <Route exact path="/accounts" component={Accounts} />
+      <Route exact path="/logins" component={Logins} />
     </Switch>
   );
 };

@@ -6,28 +6,56 @@ const Accounts = () => {
   const [isSchool, setisSchool] = useState(true);
   const [isVendor, setisVendor] = useState(false);
   const [isInstructor, setisInstructor] = useState(false);
+  const [isAdmin, setisAdmin] = useState(false);
   const [clientStyle, setclientStyle] = useState(null);
   const [corporateStyle, setcorporateStyle] = useState(null);
+  const [businessStyle, setbusinessStyle] = useState(null);
+  const [adminStyle, setadminStyle] = useState(null);
   const changeclientStyle = () => {
-    setclientStyle({ boxShadow: "0 0 20px #346a9f" });
+    setclientStyle({ boxShadow: "0 0 30px rgb(36, 99, 161)" });
     setcorporateStyle(null);
+    setbusinessStyle(null);
+    setadminStyle(null);
   };
   const changecorporatetStyle = () => {
-    setcorporateStyle({ boxShadow: "0 0 20px #346a9f" });
+    setcorporateStyle({ boxShadow: "0 0 30px rgb(36, 99, 161)" });
     setclientStyle(null);
+    setbusinessStyle(null);
+    setadminStyle(null);
+  };
+  const changebusinessStyle = () => {
+    setbusinessStyle({ boxShadow: "0 0 30px rgb(36, 99, 161)" });
+    setclientStyle(null);
+    setcorporateStyle(null);
+    setadminStyle(null);
+  };
+  const changeadminStyle = () => {
+    setadminStyle({ boxShadow: "0 0 30px rgb(36, 99, 161)" });
+    setclientStyle(null);
+    setcorporateStyle(null);
+    setbusinessStyle(null);
   };
   const schoolClick = () => {
     setisSchool(true);
     setisVendor(false);
     setisInstructor(false);
+    setisAdmin(false);
   };
   const vendorClick = () => {
     setisVendor(true);
     setisSchool(false);
     setisInstructor(false);
+    setisAdmin(false);
   };
   const instructorClick = () => {
     setisInstructor(true);
+    setisVendor(false);
+    setisSchool(false);
+    setisAdmin(false);
+  };
+  const adminClick = () => {
+    setisAdmin(true);
+    setisInstructor(false);
     setisVendor(false);
     setisSchool(false);
   };
@@ -46,7 +74,7 @@ const Accounts = () => {
                     style={clientStyle}
                   >
                     <i className="fa fa-user fa-2x"></i>
-                    <h3>Client Login</h3>
+                    <h3>Client Registration</h3>
                   </div>
                 </div>
                 <div className="col-md-6" onClick={vendorClick}>
@@ -56,21 +84,29 @@ const Accounts = () => {
                     style={corporateStyle}
                   >
                     <i className="fa fa-user fa-2x"></i>
-                    <h3>Corporate Login</h3>
+                    <h3>Corporate Registration</h3>
                   </div>
                 </div>
               </div>
               <div className="row mt-5">
                 <div className="col-md-6" onClick={instructorClick}>
-                  <div className="login">
+                  <div
+                    className="login pb-2"
+                    onClick={changebusinessStyle}
+                    style={businessStyle}
+                  >
                     <i className="fa fa-user fa-2x"></i>
-                    <h3>Business Partner Login</h3>
+                    <h3>Business Partner Registration</h3>
                   </div>
                 </div>
-                <div className="col-md-6">
-                  <div className="login">
+                <div className="col-md-6" onClick={adminClick}>
+                  <div
+                    className="login"
+                    onClick={changeadminStyle}
+                    style={adminStyle}
+                  >
                     <i className="fa fa-user fa-2x"></i>
-                    <h3>Admin Login</h3>
+                    <h3>Admin Registration</h3>
                   </div>
                 </div>
               </div>
@@ -103,40 +139,100 @@ const Accounts = () => {
           </div>
           {isSchool && (
             <div className="col-md-8">
-              <div className="accounts-content" style={{ marginTop: "40px" }}>
+              <div className="accounts-content" style={{ marginTop: "16px" }}>
                 <div className="heading">
                   <h2 style={{ textAlign: "center" }}>
-                    Client <span className="ship">Login</span>
+                    Client <span className="ship">Registration</span>
                   </h2>
                 </div>
 
-                <div className="form-div" align="center">
+                <div className="register-form-div" align="center">
                   <div className="row">
-                    <div className="col-md-12">
-                      <h4 className="mb-3">Continue with Mobile</h4>
-                      <p>You'll recieve a four-digit code to verify next</p>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-user"></i>
+
+                          <input
+                            type="text"
+                            class="form-control accounts-register-form"
+                            placeholder="Full Name"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-envelope"></i>
+
+                          <input
+                            type="email"
+                            class="form-control accounts-register-form"
+                            placeholder="Email"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
                       <form>
                         <div class="mb-3">
                           <i class="fa fa-phone"></i>
 
                           <input
                             type="text"
-                            class="form-control accounts-form"
+                            class="form-control accounts-register-form"
                             placeholder="Mobile Number"
                             id="exampleInputEmail1"
-                            aria-describedby="emailHelp"
                           />
-                        </div>
-                        <div className="mt-3">
-                          <button
-                            type="button"
-                            class="btn btn-outline-primary accounts-btn"
-                          >
-                            Request an OTP
-                          </button>
                         </div>
                       </form>
                     </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-lock"></i>
+
+                          <input
+                            type="password"
+                            class="form-control accounts-register-form"
+                            placeholder="Password"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-lock"></i>
+
+                          <input
+                            type="password"
+                            class="form-control accounts-register-form"
+                            placeholder="Re-type Password"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div className="mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary accounts-btn"
+                    >
+                      Register
+                    </button>
+                  </div>
+                  <div className="login-link mt-3">
+                    Already have an account?{" "}
+                    <a href="/logins">
+                      <span>Click here to login</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -144,21 +240,101 @@ const Accounts = () => {
           )}
           {isVendor && (
             <div className="col-md-8">
-              <div className="accounts-content" style={{ marginTop: "40px" }}>
+              <div className="accounts-content" style={{ marginTop: "16px" }}>
                 <div className="heading">
                   <h2 style={{ textAlign: "center" }}>
-                    Corporate <span className="ship">Login</span>
+                    Corporate <span className="ship">Registration</span>
                   </h2>
                 </div>
-                <div className="form-div">
-                  <form>
-                    <div className="form-input">
-                      <label>Fullname</label>
-                      <input type="text" />
-                      <label>Email</label>
-                      <input type="email" />
+
+                <div className="register-form-div" align="center">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-user"></i>
+
+                          <input
+                            type="text"
+                            class="form-control accounts-register-form"
+                            placeholder="Full Name"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
                     </div>
-                  </form>
+
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-envelope"></i>
+
+                          <input
+                            type="email"
+                            class="form-control accounts-register-form"
+                            placeholder="Email"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-phone"></i>
+
+                          <input
+                            type="text"
+                            class="form-control accounts-register-form"
+                            placeholder="Mobile Number"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-lock"></i>
+
+                          <input
+                            type="password"
+                            class="form-control accounts-register-form"
+                            placeholder="Password"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-lock"></i>
+
+                          <input
+                            type="password"
+                            class="form-control accounts-register-form"
+                            placeholder="Re-type Password"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div className="mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary accounts-btn"
+                    >
+                      Register
+                    </button>
+                  </div>
+                  <div className="login-link mt-3">
+                    Already have an account?{" "}
+                    <a href="/logins">
+                      <span>Click here to login</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -166,21 +342,202 @@ const Accounts = () => {
 
           {isInstructor && (
             <div className="col-md-8">
-              <div className="accounts-content" style={{ marginTop: "40px" }}>
+              <div className="accounts-content" style={{ marginTop: "14px" }}>
                 <div className="heading">
                   <h2 style={{ textAlign: "center" }}>
-                    Instuctor <span className="ship">Login</span>
+                    Business Partner <span className="ship">Registration</span>
                   </h2>
                 </div>
-                <div className="form-div">
-                  <form>
-                    <div className="form-input">
-                      <label>Fullname</label>
-                      <input type="text" />
-                      <label>Email</label>
-                      <input type="email" />
+
+                <div className="register-form-div" align="center">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-user"></i>
+
+                          <input
+                            type="text"
+                            class="form-control accounts-register-form"
+                            placeholder="Full Name"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
                     </div>
-                  </form>
+
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-envelope"></i>
+
+                          <input
+                            type="email"
+                            class="form-control accounts-register-form"
+                            placeholder="Email"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-phone"></i>
+
+                          <input
+                            type="text"
+                            class="form-control accounts-register-form"
+                            placeholder="Mobile Number"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-lock"></i>
+
+                          <input
+                            type="password"
+                            class="form-control accounts-register-form"
+                            placeholder="Password"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-lock"></i>
+
+                          <input
+                            type="password"
+                            class="form-control accounts-register-form"
+                            placeholder="Re-type Password"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div className="mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary accounts-btn"
+                    >
+                      Register
+                    </button>
+                  </div>
+                  <div className="login-link mt-3">
+                    Already have an account?{" "}
+                    <a href="/logins">
+                      <span>Click here to login</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+          {isAdmin && (
+            <div className="col-md-8">
+              <div className="accounts-content" style={{ marginTop: "16px" }}>
+                <div className="heading">
+                  <h2 style={{ textAlign: "center" }}>
+                    Admin <span className="ship">Registration</span>
+                  </h2>
+                </div>
+
+                <div className="register-form-div" align="center">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-user"></i>
+
+                          <input
+                            type="text"
+                            class="form-control accounts-register-form"
+                            placeholder="Full Name"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-envelope"></i>
+
+                          <input
+                            type="email"
+                            class="form-control accounts-register-form"
+                            placeholder="Email"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-phone"></i>
+
+                          <input
+                            type="text"
+                            class="form-control accounts-register-form"
+                            placeholder="Mobile Number"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-lock"></i>
+
+                          <input
+                            type="password"
+                            class="form-control accounts-register-form"
+                            placeholder="Password"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                    <div className="col-md-6">
+                      <form>
+                        <div class="mb-3">
+                          <i class="fa fa-lock"></i>
+
+                          <input
+                            type="password"
+                            class="form-control accounts-register-form"
+                            placeholder="Re-type Password"
+                            id="exampleInputEmail1"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div className="mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary accounts-btn"
+                    >
+                      Register
+                    </button>
+                  </div>
+                  <div className="login-link mt-3">
+                    Already have an account?{" "}
+                    <a href="/logins">
+                      <span>Click here to login</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
