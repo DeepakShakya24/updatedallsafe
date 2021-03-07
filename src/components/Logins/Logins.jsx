@@ -148,12 +148,14 @@ const Logins = () => {
                     Client <span className="ship">Login</span>
                   </h2>
                 </div>
-
                 <div className="form-div" align="center">
                   <div className="row">
                     <div className="col-md-12">
                       <h4 className="mb-3">Continue with Mobile</h4>
-                      <p>You'll recieve a four-digit code to verify next</p>
+
+                      <p style={{ fontWeight: "600" }}>
+                        You'll recieve a four-digit code to verify next
+                      </p>
                       <form>
                         <div class="mb-3">
                           <i class="fa fa-phone"></i>
@@ -180,24 +182,24 @@ const Logins = () => {
                             <span>Click here to register</span>
                           </a>
                         </div>
-                        <div className="login_form_title mt-4">
-                          <div className="login-title">OR</div>
-                        </div>
-                        <p style={{ fontWeight: "600" }}>
-                          Login with Social accounts
-                        </p>
-                        <div className="contact-icons mt-3">
-                          <a href="#!" class="" title="Facebook">
-                            <img src={facebook} alt="" />
-                          </a>
-                          <a href="#!" class="" title="Facebook">
-                            <img src={googleplus} alt="" />
-                          </a>
-                          <a href="#!" class="" title="Facebook">
-                            <img src={linkedin} alt="" />
-                          </a>
-                        </div>
                       </form>
+                      <div className="login_form_title mt-4">
+                        <div className="login-title">OR</div>
+                      </div>
+                      <p style={{ fontWeight: "600" }}>
+                        Login with Social accounts
+                      </p>
+                      <div className="contact-icons mt-3 mb-3">
+                        <a href="#!" class="" title="Facebook">
+                          <img src={facebook} alt="" />
+                        </a>
+                        <a href="#!" class="" title="Facebook">
+                          <img src={googleplus} alt="" />
+                        </a>
+                        <a href="#!" class="" title="Facebook">
+                          <img src={linkedin} alt="" />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -216,7 +218,9 @@ const Logins = () => {
                   <div className="row">
                     <div className="col-md-12">
                       <h4 className="mb-3">Continue with Mobile</h4>
-                      <p>You'll recieve a four-digit code to verify next</p>
+                      <p style={{ fontWeight: "600" }}>
+                        You'll recieve a four-digit code to verify next
+                      </p>
                       <form>
                         <div class="mb-3">
                           <i class="fa fa-phone"></i>
@@ -281,7 +285,9 @@ const Logins = () => {
                   <div className="row">
                     <div className="col-md-12">
                       <h4 className="mb-3">Continue with Mobile</h4>
-                      <p>You'll recieve a four-digit code to verify next</p>
+                      <p style={{ fontWeight: "600" }}>
+                        You'll recieve a four-digit code to verify next
+                      </p>
                       <form>
                         <div class="mb-3">
                           <i class="fa fa-phone"></i>
@@ -345,7 +351,9 @@ const Logins = () => {
                   <div className="row">
                     <div className="col-md-12">
                       <h4 className="mb-3">Continue with Mobile</h4>
-                      <p>You'll recieve a four-digit code to verify next</p>
+                      <p style={{ fontWeight: "600" }}>
+                        You'll recieve a four-digit code to verify next
+                      </p>
                       <form>
                         <div class="mb-3">
                           <i class="fa fa-phone"></i>
