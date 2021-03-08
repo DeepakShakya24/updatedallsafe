@@ -1,7 +1,9 @@
 .content {
   text-align: right;
 }
-
+.content p {
+  font-weight: 500;
+}
 .content h1 {
   font-weight: 800;
   font-size: 42px;
@@ -12,8 +14,8 @@
   background-repeat: no-repeat;
   background-position: right top;
   width: 100%;
-  padding-top: 175px;
-  padding: 0px;
+  margin-top: 105px;
+  padding: 0px 30px;
   margin-top: 7em;
 }
 
@@ -29,23 +31,27 @@
   width: 550px;
   height: 550px;
   border-radius: 50%;
-  left: -40px;
+  top: 81px;
+  left: 2px;
   opacity: 0.3;
 }
 
 .mobile-screen img {
   width: 68%;
   position: relative;
-  left: -80px;
+  /* left: -80px; */
 }
 
 .application {
   padding: 30px 90px 50px 50px;
 }
 
-.platform-data h2 {
-  font-weight: 600;
-  letter-spacing: 1px;
+.platform-data h1 {
+  font-weight: 800;
+  font-size: 42px;
+}
+.platform-data p {
+  font-weight: 500;
 }
 
 .platform-content {
@@ -126,7 +132,7 @@
 }
 
 .platform-main {
-  padding: 100px 0;
+  padding: 105px 0px;
   position: relative;
 }
 
@@ -157,7 +163,13 @@
   text-align: right;
   padding: 70px 0 0;
 }
-
+.slider-content h1 {
+  font-weight: 800;
+  font-size: 42px;
+}
+.slider-content p {
+  font-weight: 500;
+}
 .slider:after {
   content: " ";
   border-top: 50vh solid #0086ee;
@@ -189,7 +201,7 @@
 .big-text {
   position: absolute;
   font-size: 170px;
-  left: 0;
+  left: 117px;
   font-weight: 700;
   top: -81px;
   opacity: 0.1;
@@ -250,8 +262,8 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   z-index: 0;
-  top: 60px;
-  left: 150px;
+  top: -4px;
+  left: 16px;
   color: #1998fb;
   text-shadow: 0 0 27px rgba(0, 0, 0, 0.2);
 }
@@ -262,7 +274,7 @@
 
 .feature-box-left img {
   width: 80%;
-  margin-top: 50px;
+  margin-top: 80px;
   position: relative;
 }
 

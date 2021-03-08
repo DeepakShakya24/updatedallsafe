@@ -12,7 +12,7 @@ function Applications() {
     <div>
       <NavBar />
       {/* <section className="application"> */}
-      <div className="first-section">
+      <section className="first-section">
         <div className="first-section-content">
           <div className="row">
             <div className="col-md-6">
@@ -22,36 +22,41 @@ function Applications() {
             </div>
             <div className="col-md-6">
               <div className="content">
-                <h1>CUT</h1>
-                <h4>Category -E Wallet</h4>
+                <h1>LOREM IPSUM</h1>
+                <h4>lorem ipsum</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                   erat ut turpis. Suspendisse urna nibh, viverra non, semper
-                  suscipit, posuere a, pede.
+                  suscipit, posuere a, pede. Lorem ipsum dolor sit amet,
+                  consectetuer adipiscing elit. Donec odio. Quisque volutpat
+                  mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna
+                  nibh, viverra non, semper suscipit, posuere a, pede.
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <section className="platform-main">
-        {/* <div className="circle-blue1"></div> */}
         <div className="platform-content">
           <div className="row">
             <div className="col-md-6 mt-5">
               <div className="platform-data">
-                <h2>Platform</h2>
+                <h1>LOREM IPSUM</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                   erat ut turpis. Suspendisse urna nibh, viverra non, semper
-                  suscipit, posuere a, pede.
+                  suscipit, posuere a, pede.Lorem ipsum dolor sit amet,
+                  consectetuer adipiscing elit. Donec odio. Quisque volutpat
+                  mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna
+                  nibh, viverra non, semper suscipit, posuere a, pede.
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mt-5">
               <div className="platform-icon-box">
                 <div className="icon-box">
                   <i className="fa fa-apple fa-5x"></i>
@@ -72,12 +77,15 @@ function Applications() {
             <div className="col-md-6"></div>
             <div className="col-md-6">
               <div className="slider-content">
-                <h2>Stand-Out Feature</h2>
+                <h1>LOREM IPSUM</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                   erat ut turpis. Suspendisse urna nibh, viverra non, semper
-                  suscipit, posuere a, pede.
+                  suscipit, posuere a, pede. Lorem ipsum dolor sit amet,
+                  consectetuer adipiscing elit. Donec odio. Quisque volutpat
+                  mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna
+                  nibh, viverra non, semper suscipit, posuere a, pede.
                 </p>
               </div>
             </div>
@@ -89,7 +97,7 @@ function Applications() {
           <div className="structurebox">
             <span className="big-text">Structure</span>
             <h1>Structure</h1>
-            <p>
+            <p style={{ fontWeight: "500" }}>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
               odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
               turpis. Suspendisse urna nibh, viverra non, semper suscipit,
@@ -109,7 +117,7 @@ function Applications() {
           <div className="feature-content-box">
             <span>01</span>
             <h3>Scan</h3>
-            <p>
+            <p style={{ fontWeight: "500" }}>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
               odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
               turpis. Suspendisse urna nibh, viverra non, semper suscipit,
@@ -119,7 +127,7 @@ function Applications() {
           <div className="feature-content-box">
             <span>01</span>
             <h3>Scan</h3>
-            <p>
+            <p style={{ fontWeight: "500" }}>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
               odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
               turpis. Suspendisse urna nibh, viverra non, semper suscipit,
@@ -129,7 +137,7 @@ function Applications() {
           <div className="feature-content-box">
             <span>01</span>
             <h3>Scan</h3>
-            <p>
+            <p style={{ fontWeight: "500" }}>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
               odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
               turpis. Suspendisse urna nibh, viverra non, semper suscipit,
@@ -139,7 +147,7 @@ function Applications() {
           <div className="feature-content-box">
             <span>01</span>
             <h3>Scan</h3>
-            <p>
+            <p style={{ fontWeight: "500" }}>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
               odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
               turpis. Suspendisse urna nibh, viverra non, semper suscipit,
@@ -149,7 +157,7 @@ function Applications() {
           <div className="feature-content-box">
             <span>01</span>
             <h3>Scan</h3>
-            <p>
+            <p style={{ fontWeight: "500" }}>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
               odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
               turpis. Suspendisse urna nibh, viverra non, semper suscipit,
@@ -170,7 +178,7 @@ function Applications() {
                 <div className="col-md-6">
                   <div className="why-thumb">
                     <h3>Time-Saving</h3>
-                    <p>
+                    <p style={{ fontWeight: "400" }}>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                       erat ut turpis. Suspendisse urna nibh, viverra non, semper
@@ -181,7 +189,7 @@ function Applications() {
                 <div className="col-md-6">
                   <div className="why-thumb">
                     <h3>Time-Saving</h3>
-                    <p>
+                    <p style={{ fontWeight: "400" }}>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                       erat ut turpis. Suspendisse urna nibh, viverra non, semper
@@ -192,7 +200,7 @@ function Applications() {
                 <div className="col-md-6">
                   <div className="why-thumb">
                     <h3>Time-Saving</h3>
-                    <p>
+                    <p style={{ fontWeight: "400" }}>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                       erat ut turpis. Suspendisse urna nibh, viverra non, semper
@@ -203,7 +211,7 @@ function Applications() {
                 <div className="col-md-6">
                   <div className="why-thumb">
                     <h3>Time-Saving</h3>
-                    <p>
+                    <p style={{ fontWeight: "400" }}>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                       erat ut turpis. Suspendisse urna nibh, viverra non, semper
@@ -214,7 +222,7 @@ function Applications() {
                 <div className="col-md-6">
                   <div className="why-thumb">
                     <h3>Time-Saving</h3>
-                    <p>
+                    <p style={{ fontWeight: "400" }}>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                       erat ut turpis. Suspendisse urna nibh, viverra non, semper
@@ -225,7 +233,7 @@ function Applications() {
                 <div className="col-md-6">
                   <div className="why-thumb">
                     <h3>Time-Saving</h3>
-                    <p>
+                    <p style={{ fontWeight: "400" }}>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                       Donec odio. Quisque volutpat mattis eros. Nullam malesuada
                       erat ut turpis. Suspendisse urna nibh, viverra non, semper
