@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./HeadMenu.css";
 import { Link } from "react-router-dom";
 import LightSpeed from "react-reveal/LightSpeed";
