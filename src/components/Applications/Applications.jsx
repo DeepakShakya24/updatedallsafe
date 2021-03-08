@@ -245,7 +245,7 @@ function Applications() {
             </div>
           </div>
           <div className="col-md-4 layer-screen">
-            <img src={group3} alt="" />
+            <img src={group3} alt="" style={{ width: "119%" }} />
           </div>
         </div>
       </section>
