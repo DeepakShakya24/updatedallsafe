@@ -3,17 +3,19 @@ import "./HeadMenu.css";
 import { Link } from "react-router-dom";
 import LightSpeed from "react-reveal/LightSpeed";
 const HeadMenu = () => {
-  const [product, setproduct] = useState({ borderBottom: "2px solid #f8c73d" });
-  const [collection, setcollection] = useState(null);
+  // const [product, setproduct] = useState({ borderBottom: "2px solid #f8c73d" });
+  // const [collection, setcollection] = useState(null);
 
-  const clickProduct = () => {
-    setproduct({ borderBottom: "2px solid #f8c73d" });
-    setcollection(null);
-  };
-  const clickcollection = () => {
-    setcollection({ borderBottom: "2px solid #f8c73d" });
-    setproduct(null);
-  };
+  // const clickProduct = () => {
+  //   setproduct({ borderBottom: "2px solid #f8c73d" });
+  //   setcollection(null);
+  // };
+  // const clickcollection = () => {
+  //   if (window.location.href === "http://localhost:3000/collections/") {
+  //     setcollection({ borderBottom: "2px solid #f8c73d" });
+  //     setproduct(null);
+  //   }
+  // };
 
   return (
     <section class="head_menu">
@@ -25,8 +27,11 @@ const HeadMenu = () => {
                 <Link
                   to="/"
                   className="active-link"
-                  style={product}
-                  onClick={clickProduct}
+                  style={
+                    window.location.href === `${window.location.origin}/`
+                      ? { borderBottom: "2px solid #f8c73d" }
+                      : null
+                  }
                 >
                   PRODUCT
                 </Link>
@@ -35,8 +40,13 @@ const HeadMenu = () => {
                 <Link
                   to="/collections/"
                   className="active-link"
-                  style={collection}
-                  onSelect={clickcollection}
+                  style={
+                    window.location.href ===
+                    `${window.location.origin}/collections/`
+                      ? { borderBottom: "2px solid #f8c73d" }
+                      : null
+                  }
+                  // onSelect={clickcollection}
                 >
                   COLLECTION
                 </Link>

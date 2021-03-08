@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./AwesomeBuilds.css";
 import swap2 from "./res/swap2.webp";
 import swap3 from "./res/swap3.webp";
+import swap4 from "./res/pico_1.png";
 import Fade from "react-reveal/Fade";
 import Pulse from "react-reveal/Pulse";
 export default function AwesomeBuilds() {
@@ -20,17 +21,42 @@ export default function AwesomeBuilds() {
               <div className="awsm-build">
                 <ul>
                   <li>
-                    <a href="#!" onClick={() => setimg(swap3)}>
+                    <a
+                      href="#!"
+                      onClick={() => setimg(swap3)}
+                      style={
+                        img === swap3
+                          ? { borderBottom: "2px solid #f8c73d" }
+                          : null
+                      }
+                    >
                       BEST SELLER
                     </a>
                   </li>
                   <li>
-                    <a href="#!" onClick={() => setimg(swap2)}>
+                    <a
+                      href="#!"
+                      onClick={() => setimg(swap2)}
+                      style={
+                        img === swap2
+                          ? { borderBottom: "2px solid #f8c73d" }
+                          : null
+                      }
+                    >
+                      {" "}
                       SELF BUILD
                     </a>
                   </li>
                   <li>
-                    <a href="#!" onClick={() => setimg(swap3)}>
+                    <a
+                      href="#!"
+                      onClick={() => setimg(swap4)}
+                      style={
+                        img === swap4
+                          ? { borderBottom: "2px solid #f8c73d" }
+                          : null
+                      }
+                    >
                       ON TRENDING
                     </a>
                   </li>
